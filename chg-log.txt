@@ -1,0 +1,819 @@
+2022-2-28(8.91) - Kellie version
+-- added code into ui.js
+body.isPC:not(.safari, .ie, .no-svg) svg,  
+body.isMobile:not(.no-svg, .isApple) svg,  
+body.isTablet:not(.no-svg, .isApple) svg,
+body.isPC:not(.safari, .ie, .no-svg) object,  
+body.isMobile:not(.no-svg, .isApple) object,  
+body.isTablet:not(.no-svg, .isApple) object{  
+ display:flex;  
+}
+
+-- added in all pages <div class="xxxxsSVG tagline-SVG"><object type="image/svg+xml" data="images/home/svg_txt/TaglineC2R-3-2-mei-xxxx.svg"></object></div>
+
+
+
+2022-2-23(8.9) - Kellie version(8.9)
+--create backup folder to store no used files.
+
+
+2022-2-23(8.752) - Kellie version(8.75)
+- fixed nexus 7 show static tagline due to contact's  textLeftSide overwrite ui tagline-G (fixed by add important at ui)
+
+2022-2-22(8.752) - Kellie version(8.75)
+--changes in contact-us.css
+-added .ie .textLeftSide{margin-top: 130px;/*add for version 8.75 22Feb*/margin-left: -105px;}
+
+2022-2-22(8.75) - Kellie version
+--tuning in iPad alignment
+-changes in social-responsibility css
+- commented /* Landscape */ @media only screen and (min-width: 1024px) and (max-height: 1366px)  and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {.isTablet.isBigScreen {
+/*commented isApple for version 8.74 22Feb*/}/* .isTablet.isBigScreen.isLandscape .spaceText {
+margin-top: 290px;} */
+- add /*added isApple for version 8.74 22Feb*/.isApple.isTablet.isBigScreen .taglineHelpUs {font-size: 2.8em; margin-top: 30px;/* font-size: 4em; */font-weight: 900;letter-spacing: 0em;line-height: 1.2em; text-align: center;background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);}
+- add /*added isApple for version 8.74 22Feb*/.isApple.isTablet .taglineHelpUs {margin-top: 30px; }
+ .isApple.isTablet .spaceText { margin-top: 310px;}
+-add .isApple.isTablet.isBigscreen.isLandscape .spaceText {margin-top: 346px;}
+
+--changes in index-m.css
+-Add /*added isApple for version 8.74 22Feb*/.isApple.isTablet.isLandscape .slideshow li span{
+width:100%;}
+-add .isApple.isTablet.isLandscape ul.slideshow li{ -ms-flex-pack: center!important; justify-content: center!important;display:flex; width:100%;}
+-add .isApple.isTablet.isLandscape ul.slideshow{ /* border:1px solid yellow; */ width:100%;
+margin:0;padding:0;display: inline-block;left:0; right:0;}
+-add .isApple.isTablet.isLandscape .slideshow .paddLeftrightTXT{/* border:1px solid red; */ margin:0;}
+-add .isApple.isTablet.isBigScreen.isLandscape .blockquote {color: white;letter-spacing: 2px;font-weight: bold;margin-top: 315px; width: 100%;/* border: 1px red solid; */}
+-add /*added isApple for version 8.74 22Feb*/.isApple.isTablet.isPotrait .slideshow li span{width:100%;}
+-add .isApple.isTablet.isPotrait ul.slideshow li{-ms-flex-pack: center!important;justify-content: center!important;display:flex;width:100%;}
+-add.isApple.isTablet.isPotrait ul.slideshow{/* border:1px solid yellow; */ width:100%;margin:0;padding:0; display: inline-block;left:0;right:0;}
+.isApple.isTablet.isPotrait .slideshow .paddLeftrightTXT{/* border:1px solid red; */margin:0;}
+-add .isApple.isTablet.isPotrait .blockquote {color: white;letter-spacing: 2px;font-weight: bold;margin-top: 315px;width: 100%;}
+
+
+--changes in projects.css
+- after check then comment all the tagline-desc then add this 2 class in project.css
+.isMobile .tagline-desc {font-size: 0.9em;font-weight: 300;color: #ffffff;letter-spacing: 0.07em;/* border:1px red solid; */width:240px;margin-left:auto;margin-right:auto;}
+.isMobile.isLandscape .tagline-desc {font-size: 0.9em;font-weight: 300;color: #ffffff;letter-spacing: 0.07em;/* border:1px red solid; */width:240px;margin-left:auto;margin-right:auto;}
+- after check then uncomment all tagline desc in tablet the add the s 2 class into project.css
+-add .isTablet .tagline-desc {font-size: 1em;font-weight: 300;color: #ffffff;letter-spacing: 2px;/* border:1px red solid; */ width:320px;margin-left:auto;margin-right:auto;}
+-add .isTablet.isLandscape .tagline-desc {font-size: 1.5em;font-weight: 300; color: #ffffff;letter-spacing: 2px;/* border:1px blue solid; */ width:440px;margin-left:auto;margin-right:auto;}
+
+
+
+-changes in projects-cats-details.css
+- after check then comment all the tagline-desc then add this 2 class in project.css
+.isMobile .tagline-desc {font-size: 0.9em;font-weight: 300;color: #ffffff;letter-spacing: 0.07em;/* border:1px red solid; */width:240px;margin-left:auto;margin-right:auto;}
+.isMobile.isLandscape .tagline-desc {font-size: 0.9em;font-weight: 300;color: #ffffff;letter-spacing: 0.07em;/* border:1px red solid; */width:240px;margin-left:auto;margin-right:auto;}
+- after check then uncomment all tagline desc in tablet the add the s 2 class into project.css
+-add .isTablet .tagline-desc {font-size: 1em;font-weight: 300;color: #ffffff;letter-spacing: 2px;/* border:1px red solid; */ width:320px;margin-left:auto;margin-right:auto;}
+-add .isTablet.isLandscape .tagline-desc {font-size: 1.5em;font-weight: 300; color: #ffffff;letter-spacing: 2px;/* border:1px blue solid; */ width:440px;margin-left:auto;margin-right:auto;}
+
+-change tagline-desc from projects to projects.
+
+
+
+
+
+2022-2-21(8.74) - Kellie version
+-- all html pages added <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+--changes in index-m.css and index-m.html
+- added .btn-style2:focus {outline: none;box-shadow: none}
+- added margin-bottom into this class  /*add for version 8.74 21Feb*/
+.isMobile.isLandscape .margintopCultureTxt svg{/* margin-top:100px; */margin-top: 24px;}
+- change margin-bottom to 200px;.isMobile.isLandscape .margintopCultureTxt {/*add for version 8.74 21Feb*/margin-bottom: 200px;}
+- Add background position to 80px below. .index-m .our-culture {
+background-image: url('../../images/home/our-mission/our-culture-bg.jpg');width: 100%;background-repeat: no-repeat;background-size: 200%;/*commented for version 8.74 21Feb*//* background-position: center -2px; */background-position: center 80px;}
+- added background-position 20px in this class. @media screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { 
+.isMobile .our-culture {background-image: url(../../images/home/our-mission/our-culture-bg.jpg);
+ width: 100%;background-repeat: no-repeat;background-size: 200%;
+ /*commented for version 8.74 21Feb*//* background-position: center -23px; */background-position: center 20px;}
+-change .isMobile .margintopCultureTxt {/*change for version 8.74 21Feb*/margin-top: 0px;margin-bottom: 170px;}
+-change bin-stye to btn-sytle2 in this line <div class="col-12 text-center ui-mt-20"><a href="clients.html"><button class="btn-style2 ">VIEW MORE&nbsp;&nbsp;<img src="images/btn-icon-arrow.png"></button></a> </div>
+-  change /*change for version 8.74 21Feb*/.isApple.isMobile.isLandscape .our-culture .header-gradient-culture {/* margin-top: -235px;margin-bottom: 7px; */margin-top: -175px;margin-bottom: 270px;}
+
+
+--changes in contact-us.css
+- replace @media screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {/*commented for version 8.74 21Feb*/..}
+- add .cont-us.isLandscape .textLeftSide { margin-top: 130px;/* margin-left: -74px; *//*add for version 8.74 21Feb*/ margin-left: 120px;margin-bottom: 78px;}
+-change .cont-us .textLeftSide{ margin-top: 130px;/*change for version 8.74 21Feb*/ margin-left: 5px;}
+-Add /*add for version 8.74 21Feb*/.isApple.cont-us.isTablet .textLeftSide {margin-top: 130px;margin-left: -14px;margin-bottom:-10px;}
+-add .isApple.isMobile.isLandscape .textLeftSide {/*change for version 8.74 21Feb*//* margin-top: 130px;margin-left: -74px; */ margin-top: 100px;margin-left: 0px;}
+--add /*added isApple for version 8.74 21Feb*/
+ @media screen and (min-device-width: 412px) and (max-device-width: 915px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {.cont-us .textLeftSide { margin-top: 106px;margin-left: 5px;transform: scale(0.55); margin-bottom: -30px;}
+.cont-us.isLandscape .textLeftSide { margin-top: 130px;/* margin-left: -74px; */ margin-left: 120px;margin-bottom: 49px;transform: scale(0.65);}}
+
+
+
+--changes in who-we-are-m.css
+-commented this line /*commented for version 8.74 21Feb*//* .isMobile.isLandscape .margintopCultureTxt { margin-bottom: 200px;} */
+- add .cont-us.isLandscape .textLeftSide { margin-top: 130px;/* margin-left: -74px; *//*add for version 8.74 21Feb*/ margin-left: 120px;margin-bottom: 78px;}
+- change   .isMobile .margintopCultureTxt svg{ /* margin-top:30px; *//*add for version 8.74 21Feb*/ margin-top: -23px;}
+-add  /*add for version 8.74 21Feb*/ @media screen and (min-device-width: 414px)and (max-device-width: 846px) and (-webkit-min-device-pixel-ratio: 2)and (min-resolution: 192dpi) {
+.isMobile.isLandscape .margintopCultureTxt {-ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; text-align: center; margin-bottom: 201px;}
+} .isMobile .header-gradient-culture {margin-top: 60px;margin-bottom: 50px;}  .isMobile.isLandscape .header-gradient-culture { margin-top: 60px;margin-bottom: 10px;}
+- add/*add for version 8.74 21Feb*/ @media screen and (min-device-width: 412px) and (max-device-width: 915px) and (-webkit-min-device-pixel-ratio: 2)and (min-resolution: 192dpi) {.isMobile.isLandscape .margintopCultureTxt { -ms-flex-pack: center!important; justify-content: center!important;display: -ms-flexbox;display: flex;text-align: center;margin-bottom: 201px;}
+}
+- add   /*add for version 8.74 21Feb*/ @media screen and (min-device-width: 912px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {.isApple.cont-us.isTablet .textLeftSide {margin-top: 130px; margin-left: -14px;margin-bottom: -50px;}}
+  
+
+--change in social-responsibility.css
+- add @media screen and (min-device-width: 600px) and (max-device-width: 960px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {       /*add for version 8.74 21Feb*/
+  .isTablet.isSmallScreen .spaceText { margin-top: 214px;/* padding-left: 13%; *//* padding-right: 13%; */margin-bottom: 222px;}.
+- add /*add for version 8.74 21Feb*/
+@media screen and (min-device-width: 412px) and (max-device-width: 915px) and (-webkit-min-device-pixel-ratio: 2)and (min-resolution: 192dpi) { .isMobile.isLandscape .spaceText {margin-top: 306px;/* padding-left: 70px; *//* padding-right: 70px; */}   .isMobile .AtC2RLightningSection {/* background-size: cover; */background-size: 230%; background-position: center -61px;height: 432px;}}.
+-add   @media screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { /*add for version 8.74 21Feb*/ .isMobile.isLandscape .spaceText { margin-top: 207px;/* padding-left: 70px; *//* padding-right: 70px; */ }
+      
+--changes in project-cats-details.css
+- add /*added isApple for version 8.74 21Feb*/.isLandscape.isMobile .countryNameTxt{transform: scale(0.65); }
+-add  @media screen and (min-device-width: 414px) and (max-device-width: 846px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) { .isMobile .countryNameTxt {text-align: center;
+transform: scale(0.55);/* border: 1px red solid; */ margin-bottom: -20px;-ms-flex-pack: center!important; justify-content: center!important; display: -ms-flexbox;display: flex; }}
+
+
+--changes in project.css
+- added   /*comment isApple for version 8.74 21Feb*/.isMobile .tagline-desc {/* margin-top: 14px; */margin-top:0px;}=
+- added .isApple.isMobile .tagline-desc { margin-top: 25px;}
+
+--changes in clients.css
+- commented /*comment isApple for version 8.74 21Feb*//* .isMobile.isLandscape .tagline-desc {
+ margin-top: 25px;} */
+
+
+---changes in ui.css
+-add this line /*added isApple for version 8.74 21Feb*/
+ .isLandscape.isMobile .tagline-SVG{   transform: scale(0.65); margin-bottom:-20px;/* border:1px red solid; */}
+
+--changes in what-do-we-do.html
+- change .isMobile .whoweareParaTextLabel {/*padding-top: 19px;*/padding-top:0px;}
+
+
+2022-2-18(8.73) - Kellie version
+--changes in projects-cat-details.html
+-change additional All Typess to Types.
+
+--changes in index.css 
+- added .middle {pointer-events:none;}
+
+-- changes in who-we-are.css
+- change .our-culture meettheLeaders{animation duration: to 1s}
+ and meettheLeaders{animation duration: to 1.5s}
+- change @-webkit-keyframes fadeInUp {0% { opacity: 0;/* -webkit-transform: translate3d(0,50%,0);transform: translate3d(0,50%,0); */ -webkit-transform: translate3d(0,10%,0);
+transform: translate3d(0,10%,0);}
+- change .animated {/* -webkit-animation-duration: 3s;animation-duration: 3s; */-webkit-animation-duration: 1s;animation-duration: 1s;}
+- changes .who-we-are .our-culture .fadeInUp .ourCultureParagraphWidth{ /* animation: fadeInAnimation ease 3s; */animation: fadeInAnimation ease 1s;-webkit-animation-fill-mode:forwards;animation-fill-mode: forwards;/* animation-delay: 1.5s; */}
+- change -.animatedMeettheLeaders {/* -webkit-animation-duration: 3s;animation-duration: 3s; */-webkit-animation-duration: 1s; animation-duration: 1s;-webkit-animation-fill-mode:forwards;animation-fill-mode: forwards;} 
+- change .animatedMeettheLeadersImage {
+    /* -webkit-animation-duration: 2s;animation-duration: 2s; */-webkit-animation-duration: 1.5s;animation-duration: 1.5s;-webkit-animation-fill-mode:forwards;animation-fill-mode: forwards;}
+-c hange .fadeInUp .wholeRowImage{  animation: fadeInUpLeaderImage ease 1s;-webkit-animation-fill-mode:forwards;animation-fill-mode: forwards;/* animation-delay: 1.5s; */}
+- change .animated {/* -webkit-animation-duration: 3s;animation-duration: 3s; */-webkit-animation-duration: 1s;animation-duration: 1s;}
+-change @-webkit-keyframes fadeInUp {0% { opacity: 0;/* -webkit-transform: translate3d(0,50%,0);transform: translate3d(0,50%,0); */ -webkit-transform: translate3d(0,10%,0);
+transform: translate3d(0,10%,0);}
+    
+  
+--changes in social-responsibility.css
+-added .ie .tagline2 {margin-left: -40px;}, .ie .marginTBSpace{margin-top:200px;} in css
+
+
+--changes in contact-us.css
+- added .ie .RowformAlignment {/* border: 3px yellow solid; */width: 70%;margin-left: 35%;/* margin-top: -20%; */margin-top: -350px;}
+-uncommnent back .cont-us .textLeftSide {margin-top: 130px;margin-left: -74px;}
+
+
+--changes in index-m.css
+- added .isApple .our-culture {background-image: url('../../images/home/our-mission/our-culture-bg.jpg');width: 100%;background-repeat: no-repeat;background-size: 200%;background-position: center 20px;} 
+-uncommenented .index-m .our-culture {background-image: url('../../images/home/our-mission/our-culture-bg.jpg');width: 100%;background-repeat: no-repeat;background-size: 200%;background-position: center -2px;}
+
+--changes in clients.css, partners.css 
+-added /*add isApple for version 8.74 21Feb*/
+
+2022-2-17 (8.7)-2 - Kellie version
+- updates projects.html and project-cats-details-ie.html file and the change the All Type to All Types in yong sheng file.
+- tuning iPhone and iPad view vertical and horizontal.
+
+
+
+2022-2-17(8.7) - Kellie version
+
+--change in ui.css at global.
+-added svg, .tagline-G{  display:none!important; } 
+
+body.isPC:not(.safari) svg,  body.isMobile:not(.isApple) svg,  body.isTablet:not(.isApple) svg{  
+display:flex!important;  } 
+
+body.isPC:not(.safari) .tagline-G,  body.isMobile:not(.isApple) .tagline-G,body.isTablet:not(.isApple) .tagline-G{   display:none!important; } 
+
+
+body.isPC.safari .tagline-G,  body.isMobile.isApple .tagline-G, 
+body.isTablet.isApple .tagline-G{    display:block!important; }
+
+.tagline-SVG{ text-align:center; -ms-flex-pack: center!important; justify-content: center!important; display: -ms-flexbox;display: flex; }
+
+
+-added tagline-G in no animation all div
+-added tagline-SVG in animation all div
+
+
+-tuning alignment in mobile and tablet view vertical and landscape view.
+
+
+
+
+
+2022-2-15 (8.7) - Kellie version
+
+--changes in index-m and index-html.
+- change <a href="projects-cat-details.html?country=China&type=All%20Types">.All%20Type => All%20Types
+
+--changes ui-tablets.css
+- change from  .isTablet .footer {padding: 100px 30px 50px;} to .isTablet .footer {padding: 50px 30px 50px;}
+- change from .isTablet.isSmallScreen .footer {padding: 100px 30px 50px; } to .isTablet.isSmallScreen .footer {padding: 52px 30px 50px;} 
+
+
+--changes ui-mobile.css
+-change from .isMobile .footer {padding: 100px 30px 50px;} to .isMobile .footer {padding: 70px 30px 50px;}
+-change from padding-top from .isMobile.isSmallScreen .footer {padding: 57px 30px 50px;
+} to .isMobile.isSmallScreen .footer {padding: 5px 30px 50px;}
+
+
+--changes in social-responsibility.css
+- change margin-top:0 to 21px;.isMobile .LoveDogCSS{/* margin: 0 auto; */margin: 21px auto;text-align: center;}
+- change margin 0 auto to margin:16px auto .isTablet.isSmallScreen .LoveDogCSS {/* margin-left: 90px; */ margin: 16px auto;text-align: center;}
+
+
+--changes in contact-us.html
+- change margin-top:60px; to 55px.isMobile .formRightSide {margin-top: 55px;}
+
+-- changes in who-are-we.html and who-we-are.css
+- added.ie .WhoWeAreSVGBG svg{display:none;/* opacity:0; */}, .ie .whowearebgGround{background-image: url('../../images/who-are-we/Part1_Intro/part1-intro3.jpg'); background-color:black;width:100%;background-repeat: no-repeat;background-size: 100%;background-position: center -130px;/* overflow: hidden; *//* position:relative; *//* border:1px red solid; */z-index:1000;opacity:1;} in css.
+-added .WhoWeAreSVGBG {margin-top:-100px;}, .ie .WhoWeAreSVGBG {margin-top:-100px;} in css.
+-remove WhoWeAreSVGBG margin-top:-100px;in html.
+
+
+--changes in index/html and index.css
+- add .ie .our-culture{margin-top:100px;}, .ie .our-projects{margin-top:-70px;} in css.
+- add .ie .img-container figure{font-size: 0;display: inline-block;overflow: hidden;}, .ie .img-container:hover .img-fluid {opacity: 1;/* border:1px yellow solid; */animation: none !important;},.ie .img-container:hover .img-fluid {-webkit-animation: none !important; -moz-animation: none !important;-o-animation:  none !important;animation: none !important;}in css.
+
+--added part1-intro3.jpg into images/who-we-are/Part1_Intro part1-intro3.jp
+
+
+--tested PC view:
+1. Safari: OK but in social responsibly before successfully load the mobile tagline Help Us Build A Brighter World, Light A House, Light A Life. And The Love Our Dogs Deserve. Will appear in awhile. After successfully load then will disappear.
+2. Firefox: OK
+3. Edge: OK
+4. Google: OK
+5. IE: OK but in social responsibly before successfully load the mobile tagline Help Us Build A Brighter World, Light A House, Light A Life. And The Love Our Dogs Deserve. Will appear in awhile. After successfully load then will disappear. In who-we-are.html image when first load will display slower as our culture section will appear first.
+In index.html when mouse hover the projects thumbnail carousel image will overlap each other as shown in video.c2R Lighting Asia - Internet Explorer 2022-02-15 17-00-43.mp4
+ 
+
+--Tested Mobile and Tablet view(vertical and horizontal): overall mobile is take iPhone 678 plus as standard. Other Phone chunk space will be slightly have bigger gap in smaller phone view.
+- Mobile view is having some horizontal issue showing scrollbar. After reduce width:95% then is ok.
+1. Galaxy Note 3
+2. Galaxy Note 2
+3. Galaxy S3
+4. Nexus 7
+5. iPhone Pro 12
+6. iPad mini
+7. Surface Pro 7
+8. Galaxy Fold
+9. iPhone 5se
+10. iPhone 678
+11. iPhone 678 Plus
+12. iPhone X
+13. iPad
+14. iPad Pro
+
+
+
+----- Bug ----: 
+after added .isMobile.isLandscape .slideshow li span {width: 100%;} yesterday(14Feb) got the horizontal scroll bar exist .after checked reduce size to 95% the scroll bar disappear?Mei ai mentioned not bug pls write down this issue not a big bug,will see how to fix later.
+ 
+
+
+
+
+
+
+2022-2-14 (8.7) - Kellie version
+--changes in who-we-are-m.html and who-we-are-m.css
+- change font from 1.2 to 0.95 em..isMobile.isSmallScreen .nameCss {
+    font-size: 0.95em;
+- change margin-top:from 20px to 15px .isMobile.isSmallScreen .spaceTopKenneth { margin-top: 15px;}
+- added .isMobile.isSmallScreen.isPotrait .container {padding-right: 8px;padding-left: 8px;} in css.
+
+
+--changes in data.js
+- change Residencial word to Residential. 
+
+
+--changes in index.-m.html and index-m.css
+- change .isMobile.isLandscape .bgGoSmartLight {/* margin-top: 0px; */ margin-top: 40px;}
+- added .isMobile .slideshow li span{width:100%;}, .isMobile.isLandscape .slideshow li span{width:100%;}, .isMobile.isLandscape ul.slideshow li{ -ms-flex-pack: center!important;justify;content: center!important;display:flex;}, .isMobile.isLandscape ul.slideshow{
+    /* border:1px solid yellow; */width:100%;margin:0;padding:0;display: inline-block;left:0;right:0;}, .isMobile.isLandscape .slideshow .paddLeftrightTXT{ /* border:1px solid red; */ margin:0;}
+
+
+--changes in ui-mobile.css in global folder.
+- Added .isMobile .footer {padding: 100px 30px 50px;/* margin-top: 50px; */ /* height: auto!important; */border: 1px red solid;},.isMobile.isSmallScreen .footer {padding: 57px 30px 50px;},
+.isMobile.isLandscape .footer { padding: 40px 30px 50px;}
+
+
+--changes in ui-tablet.css in global folder.
+-added .isTablet.isSmallScreen .footer {padding: 100px 30px 50px;},.isTablet.isBigScreen .footer {padding: 100px 30px 50px;}, .isTablet .footer {padding: 100px 30px 50px;}
+
+
+--changes in social-responsibility.html and  social-responsibility.css
+- change margin-top:30px to 70px; .isMobile.isLandscape .helpUsBuidBrigtherWorldCSS {margin-top: 70px;}
+
+
+--changes in contact-us.html and  contact-us.css
+- change .isMobile.isLandscape .textLeftSide { /* margin-bottom: 47px; */  margin-bottom: 8px;}
+
+
+
+2022-2-13 (8.7) - Kellie version
+--changes in what-we-do.html and what-we-do.css
+- under /* ----------- Retina Screens ----------- */ added transform scale and  -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into css.
+
+--changes in partners.html and partners.css
+- checked mobile vertical and landscape view ok.
+
+-- changes in projects.html and projects.css
+- checked mobile vertical and landscape view ok.
+
+-- changes in clients.html and clients.css
+- added  .OurClientSVG{text-align:center;-ms-flex-pack: center!important; justify-content: center!important;display: -ms-flexbox;display: flex;}
+
+--changes in index-m.html and index-m.css
+- added .isMobile.isLandscape .slideshow .paddLeftrightTXT {padding-left: 0;padding-right: 0;/* border: 1px red solid; */width: 67%; margin: 0 0 0px -51px;}, .isTablet.isLandscape .GSLParaTextLabel {padding-top: 0px;}, .isMobile.isLandscape .GSLParaTextLabel {padding-top: 0px; }, .isMobile.isLandscape .ourClientsTxt {..}, .isTablet.isLandscape .ourClientsTxt {..}, 
+.isTablet.isLandscape .ourProjectSVGTxt{..}, .isTablet.isLandscape .GoSmartLightBGSVG{..}, .isTablet.isLandscape .margintopCultureTxt{..}.
+
+-- but index-m landscape view "Smart way to light up your darkest nights " ok in iPhone 678 plus. But
+ Other all alignment run to left side. Cant make it centralize need Mei ai help on this.                                            
+
+
+
+
+2022-2-12 (8.7) - Kellie version
+--changes in social-responsibility.css  (PC view and mobile view)
+- Tuned mobile vertical view and landscape view. iPhone 5Se and Nexus 7 phone landscape view cant detect the margin-top. 
+
+--changes in Who-are-we-m.html and who-we-are-m.css
+- tuning iPad Pro landscape view ok but .isTablet.isBigScreen.isLandscape .secTwoMarTopPara 
+    margin-top: 40%;} is overwriting the iPad landscape Gap too big.
+- tuning iPhone 678plus view ok .isMobile.isLandscape .secTwoMarTopPara {margin-top: 25%;} is overwriting iPhone 678 and galaxy note 3.
+
+
+2022-2-11 (8.7) - Kellie version
+
+--changes in index.html and index.css (PC view)
+- added new goSmartLight bg ( GoSmartLightingC2R -reduceHeight (3).svg ) in index.html and add bg into images/home/svg-bg/GoSmartLightingC2R -reduceHeight (3).svg
+
+--changes in index-m.html and index-m.css
+- change .isMobile .secTwoMarTop{/* margin-top: 10%; */margin-top: 4%;} margin-top:10% to 4% in css.
+- check alignment and adjusted similar like live https://twenty-one.tech/21test/c2r/index-m.html.
+- added .isMobile .margintopCultureTxt {   margin-top: 80px;} in css.
+- added .isTablet.isSmallScreen.isPotrait .margintopCultureTxt {margin-top: 60px;}
+
+--changes in projects.html and projects.css  (mobile view)
+- under /* ----------- Retina Screens ----------- */ added transform scale and  -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into css.
+
+
+--changes in who-we-are.html and who-are-we.css (PC view)
+- change who-we-are background text W to upper case We are group of lighting enthusiast with fresh new ideas. And also added gap below the subtagline paragraph.  and add bg into images/home/svg-bg/Who are We-introSVG -mei -11Feb-CropTop (10).svg. Reduce subtagline paragraph font size in svg.
+- added class into html and css..WeAreCSS, .groupoflightingenthusiastCSS, .withfreshnewideasCSS{font-size:0.95em;font-weight:700;} .WithoveryearsCSS , .committedtodeliverCSS, .customerserviceandCSS, .satisfactionCSS{font-size:0.9em;font-weight:400;}
+
+
+--changes in who-are-we-m.html and who-we-are-m.css
+- under /* ----------- Retina Screens ----------- */ added transform scale and  -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into css.
+- check alignment and adjusted similar like live https://twenty-one.tech/21test/c2r/who-are-we-m.html.
+
+
+
+--changes in partners.html and partners.css  (mobile view)
+-- under /* ----------- Retina Screens ----------- */, added -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into .margintopCultureTxt, .ourProjectSVGTxt, .ourClientsTxt in css.
+
+
+--changes in clients.html and clients.css  (mobile view)
+-- under /* ----------- Retina Screens ----------- */, added -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into .margintopCultureTxt, .ourProjectSVGTxt, .ourClientsTxt in css.
+
+
+--changes in contact-us.html and contact-us.css  (mobile view)
+-- under /* ----------- Retina Screens ----------- */, added -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into .margintopCultureTxt, .ourProjectSVGTxt, .ourClientsTxt in css.
+
+
+--changes in social-responsibility.css  (PC view and mobile view)
+- change background-size from 130% to 100% .AtC2RLightningSection { background-size: 100%; } in css. At line 2073.
+- change font-size .tagline from 3em to 2.9em make it same as index.html font size.
+- in iPad Pro the 2 col of the images has been adjusted. The size is bigger from the original live version tome it more same size(light a house and love our dogs.)
+- change margin-top from 10px to -14px. .isTablet.isBigScreen .socialresLabel {/* margin-top: 10px; */margin-top: -14px;}
+- change margin-top from 400 to 317px .spaceText{/* margin-top: 400px; */margin-top: 317px;/* border:1px red solid; */ /* width:300px; */}
+
+
+
+
+
+
+
+
+
+
+
+2022-2-10 (8.7) - Kellie version
+--changes in social-responsibility.html and social-responsibility.css.  (vertical view)
+- added -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into .helpUsBuidBrigtherWorldCSS, .mobilehelpUsBuidBrigtherWorldCSS, .LightAHouseSVG, .mobileLightAHouseSVG in css.
+
+
+--changes in index-m.html and index-m.css  (vertical view)
+- added animation tagline into index-m.html
+- under /* ----------- Retina Screens ----------- */, added -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into .margintopCultureTxt, .ourProjectSVGTxt, .ourClientsTxt in css.
+
+
+--changes in index.html and index.css  
+- adjust chunk space in between section
+- footer bottom got an extra space below.But cant find why is the pro that affected it.Need Mei ai help.
+
+-- changes in projects.html  (vertical view)
+- change All Type into All Types in project.html and project-cat-details.html
+- changes The World Center to  New World Center.
+- added new photo HongKong-Ongoing-Project-Cheung-Shun-Street-New-World.png into images/projects/gallery
+- change HongKong-Ongoing-Project-Cheung-Shun-Street-New-World.jpg to HongKong-Ongoing-Project-Cheung-Shun-Street-New-World.png in data.js
+
+--changes in project-cat-details.html and project-cat-details.css  (vertical view)
+- change width to 40% .page-title { width: 40%;} in css.
+- under /* ----------- Retina Screens ----------- */ added transform scale and  -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into css.
+
+
+--changes in who-we-are.html and who-we-are.css (vertical view)
+-added new who-we-are animation bg(Who are We-introSVG -mei -11Feb-CropTop (10).svg) into this line and change margin-top tp -100px;<div class="container-fluid WhoWeAreSVGBG" style="margin-top:-100px;">.Aligned bg height same as live version https://twenty-one.tech/21test/c2r/who-are-we.html
+
+
+-changes in what-we-do-m.html and  what-we-do-m.css
+-under /* ----------- Retina Screens ----------- */ added transform scale and  -ms-flex-pack: center!important;justify-content: center!important;display: -ms-flexbox; display: flex; into css.
+
+
+
+--changes in clients, partner, contact-us projects not yet complete.
+
+
+
+2022-2-7 (8.7) - Kellie version
+--changes in projects.html and projects.css
+- Added  ourProSubTag animatedOurProject js-inview fadeInUp this line <div class="tagline-desc ourProSubTag animatedOurProject js-inview fadeInUp" data-animate="fadeInUp">Play with lighting is a wonderful story, every project will help you tell it.</div>
+- Added .animated{...},  .cssanimations .animated{...} ,  @media screen and (max-width:1200px) {...}, .fadeInUp {...}, .ourProSubTag{...}, ..animatedOurProject{...} in project.css
+- Added .ourProjectSVG{ text-align:center;} in css
+
+
+--changes in projects-cat-details.html and projects-cat-details.css
+- Added  ourProSubTag animatedOurProject js-inview fadeInUp this line <div class="tagline-desc ourProSubTag animatedOurProject js-inview fadeInUp" data-animate="fadeInUp">Play with lighting is a wonderful story, every projects will help you tell it.</div>
+- Added this line <div class="countryNameTxt"> in html as <div class="tagline gradient orange-pink" id="country_name"></div> in html. Cant be commented after commented the selection box not working.
+
+
+- Added .animated{...},  .cssanimations .animated{...} ,  @media screen and (max-width:1200px) {...}, .fadeInUp {...}, .ourProSubTag{...}, ..animatedOurProject{...} in project.css
+- Added .ourProjectSVG{ text-align:center;} in css
+- Change width to 40% in .page-title {width: 40%;} in css.
+
+--Added Country name svg into Images/svg_txt.
+
+--changes in social-responsibility.html and social-responsibility.css
+- Make special handing for mobile and pc view Help Us Build a Brighter World.
+- Added alignment for .mobileLightAHouseSVG, .mobiletheLoveOfOurDogSVG, .mobilehelpUsBuidBrigtherWorldCSS, .LightAHouseSVG, .theLoveOfOurDogSVG, .helpUsBuidBrigtherWorldCSS. in css
+
+--changes in who-we-are.html and who-are-we.css
+- added btn-style mobile small view 0.6em to 0.4em and font-weight:600 as galaxy fold phone view cant view full sentence Read more. 
+- added .meettheLeadersSVG and .margintopCultureTxt in css.
+
+--changes in what-we-do.html and what-we-do.css
+-added alignment .WhatWeDoSVG in css.
+
+--changes in partners.html and partners.css
+- added alignment .OurPartnersSVG in css.
+
+--changes in projects.html and projects.css
+- added alignment .ourProjectSVG in css.
+
+--changes in clients.html and clients.css
+- added alignment .OurClientSVG in css.
+
+--changes in contact-us.html and contact-us.css
+- added alignment .textLeftSide in css.
+
+- Add js-inview animation subtagline into index-m, who-we-are.html, who-we-are-m.html, what-we-do.html,  what-we-do-m.html, projects.html, partners.html, clients.html, social-responsibility.html, contact-us.html.
+
+- backup projects-cat-details.html of mine and Replace yong Sheng project-cats-details.html into my version.
+
+
+
+2022-1-28 (8.7) - Kellie version
+--All animation in mobile only view nice in Samsung galaxy note 3.
+
+--changes in index.html and index.css.
+- remove ie in this line <div class="row partners-position" > and d-flex in this line     <div class="container d-flex align-items-center justify-content-center partners-container">
+
+
+--changes in who-are-we.html and who-we-are.css.
+- added animation under this div <div class="margintopCultureTxt">.
+- added .isMobile .margintopCultureTxt{ /* text-align: center; */ transform: scale(0.55) translate(-3px, 0); /* border: 1px red solid; */ margin-bottom: 172px;} in css.
+
+--changes in who-are-we-m.html and who-we-are-m.css.
+- added animation Tagline under this class   <div class="WhatWeDoSVG">  in html .
+-  added animation Tagline  MEET THE LEADERS under this div  <div class="col-12 meettheLeadersSVG">
+
+--changes in what-we-do.html and what-we-do.css.
+- added animation Tagline under this class   <div class="WhatWeDoSVG">  in html .
+
+--changes in what-we-do-m.html and what-we-do-m.css.
+- added animation Tagline under this class   <div class="WhatWeDoSVG">  in html .
+- added .isMobile .WhatWeDoSVG{text-align: center; transform: scale(0.55) translate(-39px, 0);/* border: 1px red solid; */margin-bottom: -20px;}
+
+
+--changes in partners.html and partners.css.
+- added animation Tagline under this class <div class="OurPartnersSVG"> in html .
+- added .OurPartnersSVG{text-align:center;}.
+.isMobile .OurPartnersSVG{/* text-align: center; */transform: scale(0.55) translate(-44px, 0);/* border: 1px red solid; */margin-bottom: -20px;}
+
+
+--changes in projects.html and projects.css.
+- add animation Tagline OUR PROJECTS under this class <div class="ourProjectSVG">.
+- added .isMobile .ourProjectSVG{/* text-align: center; */transform: scale(0.55) translate(-44px, 0);/* border: 1px red solid; */ margin-bottom: -20px;} in css.
+
+
+-- **** Projects cats-detail.html. not sure how to add animation svg into it? **** --
+
+
+--changes in clients.html and clients.css
+- added animation Tagline under this class <div class="OurClientSVG"> in html.
+- added .OurClientSVG{text-align:center;}.
+- added .isMobile .OurClientSVG{ /* text-align: center; */  transform: scale(0.55) translate(-44px, 0); /* border: 1px red solid; */ margin-bottom: -20px;}
+
+
+--changes in contact-us.html and contact-us.css
+- added animation Tagline under this class   <div class="textLeftSide"> in html.
+- change margin-left: -160px; to -74px.  .cont-us .textLeftSide{ margin-top: 130px; margin-left: -74px;}
+- added .isMobile .textLeftSide{margin-top: 62px; margin-left: -4%; text-align: center; transform: scale(0.5) translate(0, 0); margin-bottom: -30px;} in css.
+
+
+--changes in social-responsibility.html and social-responsibility.css
+- added animation Tagline Help Us Build A Brighter World. under this class  <div class="helpUsBuidBrigtherWorldCSS"> in html
+- added animation Tagline Light A House, Light A Life. under this class  <div class="helpUsBuidBrigtherWorldCSS"> in html
+- added .isMobile .helpUsBuidBrigtherWorldCSS{text-align: center;transform: scale(0.55) translate(-91px, 0);border:1px red solid;inline-size: 150px; word-break: break-all; writing-mode: horizontal-tb; };  BUT IS NOT WORKING CANNT BREAK THE LINE , MAYBE NEED REDESIGN THE TAGLINE .
+ANIMATION SEE HOW. CAUSE NOW IT FIXED SIZE. 
+- added animation Tagline The Love Our Dogs Deserve. under this class  <div class="theLoveOfOurDogSVG"> in html
+- added .theLoveOfOurDogSVG {text-align: left;margin-left: -3px;} in css.
+- added .isMobile .theLoveOfOurDogSVG {text-align: center;/* border: 1px red solid; */transform: scale(0.55) translate(-99px, 0);/* font-size: 30px; */} in css.
+- added .isMobile .LightAHouseSVG {text-align: center;/* border: 1px red solid; */transform: scale(0.55) translate(-91px, 0);/* font-size: 30px; */} in css.
+
+
+
+
+
+2022-1-26 (8.7) - Kellie version
+--changes in index.html and index.css.
+- added $(window).resize(function(){setBannerFullHeight();}); in index.html
+- add indexChunkSpace in first section and go smart light section and remove indexChunkSpace in our culture.
+-remove ie in this div row   <div class="container d-flex align-items-center justify-content-center ie partners-container"> become like this   <div class="container d-flex align-items-center justify-content-center partners-container">.
+
+
+-- changes in social-responsibility .html and social-responsibility.css
+- added $(window).resize(function(){setBannerFullHeight(); }); in social-responsibility.html.
+- added .isPC .socialChunkSpace{ margin-bottom: 7%;border:1px solid red;}, .helpBrighterSection{ height: auto!important;margin-bottom: 10.5%;}
+, .thirdSectionOurMission{height: auto!important;margin-bottom: 10.5%!important;}
+, .forthThelove{height: auto!important; margin-bottom: 5%!important;}
+
+
+
+-- changes in who-we-are.html and who-are-we.css
+- change background image in .who-we-are .our-culture{background-image: url('../../images/home/our-mission/our-culture-bg-f.jpg'); in who-we-are.css
+- added .whoweAreChunkSpace{margin-bottom:5%;} in who-we-are.css
+- added new image in to /images/home/our-mission/our-culture-bg-f.jpg.
+- add animation for the first section who-we-are bg in html.
+
+--changes in ui.css
+-remove these classes in css.
+/*indexChunkSpace added in index.html to add space in between  section*/
+/* .indexChunkSpace{
+    margin-bottom:50px;
+    }
+     */
+/*whoweAreChunkSpace added in who-we-are.html to add space in between  section*/
+/* .whoweAreChunkSpace{
+    margin-bottom:50px;
+    } */
+
+/*socialChunkSpace added in social-responsibility.html to add space in between section*/
+/* .isPC .socialChunkSpace{
+    margin-bottom:65px;
+}
+
+.isPC .socialChunkSpace2{
+    margin-bottom:100px;
+} */
+
+
+
+
+2022-1-24 (8.7) - Kellie version
+-- changes in index.html and index.css.
+- revert back width:900px to width:100% in partner-table.
+- added global chunk space in index.html for testing purpose.  .indexChunkSpace{..} class in section with an added value margin-bottom:150px;.
+- in index.html added in home-go-light-smart and our-culture section .
+- original index.css our culture section commented margin-bottom:150px; .home-go-light-smart commented margin-bottom:100px;
+- change project section from col-md-auto to col-md-3 in <div class="col-md-auto img-container">.
+- index.css .header-white commented margin-top: 50px; 
+- added &nsbp; in between hongkong <div class="img-text caption"><span> Hong&nbsp;Kong</span></div> because after change to col-md-3 hong kong text become 2 line not one words.
+
+-- changes in who-we-are.html and who-are-we.css
+-in ui.css added .whoweAreChunkSpace{margin-bottom:150px;}
+- added whoweAreChunkSpace in our-culture section and commented secTwoMarTop in.css. Because the space between index and wo-we-are is diff. So I need create another new one to make sure the space in index and wo-we-are are almost the same when user look at it.
+
+-- changes in social-responsibility .html and social-responsibility.css
+-in ui.css added .socialChunkSpace{ margin-bottom:80px;}
+- added socialChunkSpace in helpBrighterSection section, thirdSectionOurMission section and forthThelove  section
+- commented .secspace margin-top:50px; in css as section will use socialChunkSpace.
+
+
+2022-1-21 (8.7)- Kellie version -animation in index.html pages and who-we-are.html half pages(need do svg in who-we-are first section bg).
+-Added ken burn animation into project section carousel in index.css at line 1016 /*add kenburn effects*/.
+-Added inner carousel text from center animation in index.css under line 1187./*Carousel inner text animation under projects section */
+-Added tagline and sub tagline section into animation. Our Culture section, Meet the leaders section in who-we-are.html.Added animation   style in line 4 /*Animation*/. Added whole row animation fadeInUp in image.
+- Remove <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> from contact-us page
+- Comment opacity and nomal fadeInUp animation index.css in line from  1048 .carousel{...}  till  .fadeInUp .carousel{...} 1134 in index.css.
+-Change text-align:left to center and remove padding-left:15% in line 1514 .contact-button {..} in index.css.
+
+
+
+2022-1-20 (8.61)- Kellie version
+-modal content change background color from #fff to background-color: rgb(43, 43, 43); in ui.css line 422. Cause checked in nexus 7 got a lighter line in modal.
+-change button style: focus in modal into none. In ui.css line 428.
+- read more button in mobile view change the height shorter and arrow image smaller abit.
+-Added margin top and bottom for the read more button.
+-Added new Scripting merging with Alan's new code in contact-us.html line 500 and 560.And change alert message to showMsgModal in line 500 and 602.
+
+
+2022-1-19(8.61) - Kellie version
+-from line 518 js-inview, data-animate="fadeInUp". Move to parent container line 494.
+-tuning the carousel from filter brightness to opacity one time from opacity 0 to 100%.
+-Kenneth's image to be changed
+-Meet the Team title to be changed
+-Speech of the leaders added red color borders like projects into it in who-we-are.html
+-Macau Info to be updated and change email address into alphabetical order, Annabel infront.
+
+
+2022-1-17(8.61) -kellie version
+- in index.html added .ie .home-go-light-smart svg{display none} in line 1467 and .ie .home-go-light-smart{ background image} in line 1473.
+-change back our-culture section background back to live version.index.html and who-we-are.html. background position: center -150px.  
+
+
+2022-1-14 (8.61)-kellie version
+-Added in view classes into index.html.
+-Added animation into small tagline (Our Clients and Our Projects). 
+-Added Go Smart Light Background into images/home/svg_bg/GoSmartLightingC2R -2.svg.
+-Added animation from opacity 0 to 100% for go Smart Light Bg when scroll up or down.
+-Added d new script in jquery-inview-example and do a backup name as script-bk.
+-Tested on safari, google chrome, Firefox, edge. Go Smart Light background able to load when after scroll up and down.
+
+- chg the arrow at lightbox - not yet need crop image and attach inside and if change the arrow both side is using the same arrow.
+
+
+2022-1-13 (8.61)-kellie version
+- insert animation go light smart, Using 1%  on scroll into view view 1%.direction:alternate.
+-Remove <!-- For Putting the best light forward --> scripting in index.html.
+
+
+2022-1-13 (8.6)-kellie version
+- animation Our Culture Tagline, Our Projects Tagline, Our Clients Tagline at index.html. When export change the SVG text from responsive to fixed.
+- add height:100%; in line 468, index.html
+- add container-fluid in line start 470 end at 670, index.html. Not sure is it affect it. But added inside it no effect Our Project when minimize the window screen height issue "Our projects" words overlapped vision, mission, value information pane.
+
+
+2022-1-12 (8.6)-kellie version
+-Added animation Into Our Culture Tagline, Our Projects Tagline, Our Clients Tagline at index.html.
+- insert animation go light smart -not yet
+- chg the arrow at lightbox - not yet need crop image and attach inside and if change the arrow both side is using the same arrow.
+- Added SVG-Text (Our Clients, Our Projects, Our Culture) into this path /images/home/svg_txt.
+
+
+2022-1-12 (8.5)-kellie version
+- add some gap at the right for arrow at project part at home screen 
+- remove hover line at project and project cat detail for mobile view
+- remove the gap between our project thumb at home page
+- our culture always not top of the bg-light section. Crop image top 20px and add back to bottom. Remove background position top negative value.
+- add active in nav-item 
+
+
+2022-1-7 (8.5)
+- fixed Horizontal scroll at index, who are we, what we do, social responsibilty page , which is happened at IE and SAFARI(fixed by overflow:hidden, chg the bar do at what we do img)
+- chg kenneth speech tuning to turning
+- reduce file size- what we do 
+- add margin-bottom at what we do section
+- scale up the team photo for mobile view =? 80%
+- reduce font-size for person name
+- adjust the line height font-size for the txt at popup at meet the team
+
+
+2022-1-7 (8.4)
+-copy right from 2021 change to 2022
+-project cat details tagline width fix in mobile, tablet, iPad
+-who-we-are mission, vision, alignment tuned to center
+-add modal header, modal body, modal header button and modal header button hover into global/ui,css.
+-project cat details change footer to uppercase A
+-what we do system integration I change upper case
+-social responsibility, Light a life change to upper case Life
+-update new contact-us.html that have alert
+
+-safari browser: what we do scrollbar below solve one part. But when after mouse over the image it will display the scrollbar again then disappear.
+-social responsibility and index haven't solve
+
+
+
+
+2022-1-7 (8.3)
+- fixed contact tel fax
+- temporary remove full page scroll at home page
+- added email submit
+- philipine typo error at home
+- vision no full stop at home mobile view
+- project-cat-details footer what we do :W need to upper case
+- what we do link to who we are at footelinnl
+
+2022-1-6 (8.2)
+- Update team images to half body images, images and speech updated to file
+- added full page for social responsebiity
+- adjusted landscape view for tablet and mobile
+- fixed typo error for philipinnes
+
+
+2022-1-5 (8.1)
+- fixed mobile menu pane show up when tablet landscape
+- fixed project lightbox navigate from left to right at phobe view
+- added pointer for meet the team photo
+
+2022-1-4 (8.0)
+- fixed iPAD, ipad pro at safari not able detect as isTablet
+- fixed project lightbox navigate from left to right
+- added macau member info
+- chg to 6 person grid view for meet the team
+- move redirect to ui.js
+- fixed home slideshow not able to hover issue
+
+2021-12-30 (7.9)
+- added min width 1200 for PC (global css)
+- fixed minimize show mobile menu at PC view (global css)
+- fixed ipad pro mobile menu dark pane show up (global css)
+- added meet the team mobile view (Grid)
+
+- chg container-fluid to container for what we do-m  page
+
+
+
+2021-12-30 (7.8)
+- chged lighting enthusiast and remove txt gradient
+- just show 1 soka at project
+
+2021-12-29 (ver7.6)
+- added full stop for what we do & who are we
+- fixed mobile safari, chrome intro text gradient issue after break 2 2nd line[chg to solid orange for safari and mobile)
+- added the partner link
+
+
+2021-12-29 (ver7.5)
+- added new on-going projects(Eurobank clear, Dulwich College, Sumang Link (SOKA) Building)
+- fix typo error or missing full stop at home , footer, client, social responsibility and contact us
+- added Chris and william info
+- rearrange meet the team sequence
+- remove singpore from Edwin and chg title to Group CEO
+- fixed Light box not work on IE(chg JS library)
+- Fixed project render not work on IE
+- Fixed contact us submit btn invalid link
+- Fixed scroll X show on Mobile view what we do after chg to container-fluid
+- Temporary fixed hover effect on bttn at home slide show
+- partner and client logo sequence sort by alphabetical
+- Fixed IE & mozilla selet box arrow and focus issue at project page
+
+2021-12-10 (ver6)
+- removed product section
+- updated footer with all section
+- remove project at who we are
+- remove testimonial and product from home
+- Added type and updated project page category
+- Updated type and country and updated all hong kong images from latest client provided at 30 NOv
+- Renaming the project gallery imgs
+
+2021-12-1 (ver5.1)
+- added favicon
+- fixed partner broken link at project-cat-details
+- fixed contact us broken link at who are we
+- added link to project and product from product section and project section
+- chg Partner to Partners at footer
+- adjust the contact us address alignment
+
+
+2021-12-1 (ver5)
+- chg copy right
+
+
+2021-12-1 (ver4.2)
+- fix select box duplicate option at solution
+- fix lowercase o for office at solution and project-cat-details
+
+2021-12-1 (ver4.1)
+- fix select box placeholder , should not allow to select
+

@@ -1,0 +1,34 @@
+.lesson {
+  margin: 20px
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+section {
+   /* margin: 20px auto;*/
+    width: 100%;/*940px;*/
+    text-align: center;
+    font-weight: bold
+}
+
+.item {
+    width: 10%;
+    float: left;
+    background-color: #EEE;
+    height: 200px;
+    line-height: 200px;
+    cursor: pointer;
+    border-right: 1px solid #FFF
+}
+
+.info {
+    float: left;
+    background-color: #DDD;
+    height: 200px;
+    width: 0;
+    display: none
+}

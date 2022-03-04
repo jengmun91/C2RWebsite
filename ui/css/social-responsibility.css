@@ -1,0 +1,4326 @@
+/*** PC VIEW ***/
+.animated {
+	/* -webkit-animation-duration: 0.8s;
+	animation-duration: 0.8s; */
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	/* -webkit-animation-fill-mode: both;f.iez
+	animation-fill-mode: both; */
+	-webkit-animation-fill-mode:forwards;
+	animation-fill-mode: forwards;
+  }
+  
+
+  .cssanimations .animated {
+	opacity:0;
+  }
+  
+  @media screen and (max-width:1200px) {
+	.animated {
+	  opacity: 1;
+	}
+  }
+  
+  @-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,50%,0);
+        transform: translate3d(0,50%,0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,50%,0);
+        transform: translate3d(0,50%,0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+
+.socResSubTag
+{
+    opacity:0;
+}
+
+.animatedsocRes
+ {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+body.social-res1
+{
+    background-image: url('../../images/social-responsibility/book-1822474_1920_EDIT1.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover;  */
+    background-size:110%;
+    background-position: -74px 9px;
+    /* height:500px; */
+}
+
+ .AtC2RLightningSection
+{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover;  */
+    background-size: 100%;
+    background-position: center -86px;
+    /* height:500px; */
+}
+
+
+
+.socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black;
+    height: 700px; 
+    width: 100%; 
+    margin-right:0;
+    background-position: right center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black;
+    height: 700px; 
+    width: 100%; 
+    margin-right:0;
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    /* text-align:left; */
+}
+
+
+ .missionCSS{
+    padding-left: 90px;
+    text-align: left;
+}
+
+
+.LightAHouseSVG
+{
+    text-align:left;margin-left: -3px;
+}
+
+.theLoveOfOurDogSVG
+{
+    text-align:left;margin-left: -3px;
+}
+
+.isPC .helpUsBuidBrigtherWorldCSS{
+    text-align: center;
+    /* border: 1px red solid; */
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.isPC .mobilehelpUsBuidBrigtherWorldCSS{
+    display:none;
+    }
+
+    
+.isMobile .mobilehelpUsBuidBrigtherWorldCSS{
+    text-align: center;
+    transform: scale(0.55);
+    /* border: 1px red solid; */
+    margin-bottom: -30px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.isMobile.isSmallScreen.isPotrait .mobilehelpUsBuidBrigtherWorldCSS{
+    text-align: center;
+    transform: scale(0.55);
+    /* border: 1px red solid; */
+    margin-bottom: -43px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.isMobile .helpUsBuidBrigtherWorldCSS{
+display:none;
+}
+
+
+.isMobile.isLandscape .helpUsBuidBrigtherWorldCSS {
+    text-align: center;
+    transform: scale(0.6);
+    /* border: 1px red solid; */
+    margin-bottom: -23px;
+    /* margin-bottom: 27px; */
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 70px;
+}
+
+.isMobile.isLandscape .mobilehelpUsBuidBrigtherWorldCSS
+{
+     display:none;
+
+}
+
+
+
+.isTablet .helpUsBuidBrigtherWorldCSS{
+    display:none;
+    }
+
+    .isTablet.isLandscape .helpUsBuidBrigtherWorldCSS {
+        text-align: center;
+        transform: scale(0.85);
+        /* border: 1px red solid; */
+        margin-bottom: -8px;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 90px;
+    }
+.isTablet.isLandscape .mobilehelpUsBuidBrigtherWorldCSS
+{
+     display:none;
+
+}
+
+
+
+.isTablet.isSmallScreen.isPotrait .helpUsBuidBrigtherWorldCSS{
+    display:none;
+    }
+
+.isTablet.isSmallScreen.isPotrait .mobilehelpUsBuidBrigtherWorldCSS{
+    text-align: center;
+    transform: scale(0.7);
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+        }
+    
+.isTablet.isBigScreen.isPotrait .helpUsBuidBrigtherWorldCSS{
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+        text-align: center;
+    transform: scale(0.9);
+}
+ .isTablet.isBigScreen.isPotrait .mobilehelpUsBuidBrigtherWorldCSS{
+    /* text-align: center;
+    transform: scale(0.8) translate(0px, 0); */
+    display:none;
+ }
+
+ .isTablet.isPotrait .mobilehelpUsBuidBrigtherWorldCSS{
+    /* text-align: center;
+    transform: scale(0.9) translate(0px, 0); */
+    display:none;
+ }
+
+ .isTablet.isPotrait .helpUsBuidBrigtherWorldCSS{
+    text-align: center;
+    transform: scale(0.85);
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+
+
+
+ .isTablet.isSmallScreen.isPotrait .mobilehelpUsBuidBrigtherWorldCSS{
+    text-align: center;
+    transform: scale(0.8);
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 100px;
+
+    /* border: 1px red solid; */
+    /* margin-bottom: -30px; */
+}
+/* .isMobile .helpUsBuidBrigtherWorldCSS svg text{
+    text-rendering:100px;
+} */
+
+.isPC .mobileLightAHouseSVG{
+    display:none;
+    }
+
+
+
+.isMobile .LightAHouseSVG{
+        display:none;
+        }
+/*         
+.isTablet .LightAHouseSVG{
+     display:none;
+  } */
+
+  .isTablet .LightAHouseSVG {
+    text-align: center;
+    transform: scale(0.85);
+    /* border: 1px red solid; */
+    /* margin-bottom: -43px; */
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.isTablet.isLandscape .LightAHouseSVG {
+    margin-bottom: 20px;
+
+}
+
+
+.isTablet .mobilehelpUsBuidBrigtherWorldCSS{
+    text-align: center;
+    transform: scale(0.85);
+    /* border: 1px red solid; */
+    /* margin-bottom: -43px; */
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.isTablet .mobileLightAHouseSVG{
+  display:none;
+}
+
+    
+.isTablet.isSmallScreen.isPotrait .LightAHouseSVG{
+    display:none;
+    }
+
+.isTablet.isSmallScreen.isPotrait .mobileLightAHouseSVG{
+    display:block;
+    text-align: center;
+    transform: scale(0.85);
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+        }
+
+.isMobile.isPotrait .mobileLightAHouseSVG{
+    text-align: center;
+    transform: scale(0.55);
+    /* border: 1px red solid; */
+    margin-bottom: -30px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+
+
+.isMobile.isLandscape .LightAHouseSVG
+{
+    text-align: center;
+    transform: scale(0.6);
+    /* border: 1px red solid; */
+    margin-bottom: -23px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.isMobile.isLandscape .mobileLightAHouseSVG
+{
+     display:none;
+
+}
+
+
+.isMobile.isLandscape .theLoveOfOurDogSVG
+{
+    text-align: center;
+    transform: scale(0.6);
+    /* border: 1px red solid; */
+    margin-bottom: -23px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.isMobile.isLandscape .mobiletheLoveOfOurDogSVG{
+     display:none;
+
+}
+
+
+.isTablet.isBigScreen.isPotrait .LightAHouseSVG{
+    display:none;
+    }
+.isTablet.isBigScreen.isPotrait .mobileLightAHouseSVG{
+    display:block;
+    text-align: center;
+    transform: scale(0.9);
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+        }
+
+
+/* .isTablet.isSmallScreen .mobileLightAHouseSVG{
+    text-align: center;
+    transform: scale(1) translate(0px, 0);
+    border: 1px red solid;
+    margin-bottom: -30px;
+} */
+
+
+.isMobile.isSmallScreen.isPotrait .mobileLightAHouseSVG{
+    text-align: center;
+    transform: scale(0.55);
+    /* border: 1px red solid; */
+    margin-bottom: -43px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.isMobile .theLoveOfOurDogSVG{
+    display:none;
+    
+}
+
+.isPC .mobiletheLoveOfOurDogSVG{
+    display:none;
+}
+
+.isTablet .theLoveOfOurDogSVG{
+    text-align: center;
+    transform: scale(0.85);
+    /* border: 1px red solid; */
+    /* margin-bottom: -43px; */
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.isTablet.isLandscape .theLoveOfOurDogSVG{
+    margin-bottom: 20px;
+
+}
+
+
+.isTablet .mobiletheLoveOfOurDogSVG{
+            display:none;
+  } 
+        
+.isTablet.isSmallScreen.isPotrait .theLoveOfOurDogSVG{
+                display:none;
+}
+            
+.isTablet.isSmallScreen.isPotrait .mobiletheLoveOfOurDogSVG{
+                text-align: center;
+                transform: scale(0.85);
+                -ms-flex-pack: center!important;
+                justify-content: center!important;
+                display: -ms-flexbox;
+                display: flex;
+            
+}
+
+
+.isTablet.isBigScreen.isPotrait .theLoveOfOurDogSVG{
+                        display:none;
+ }
+.isTablet.isBigScreen.isPotrait .mobiletheLoveOfOurDogSVG{
+            text-align: center;
+             transform: scale(0.9);
+             -ms-flex-pack: center!important;
+             justify-content: center!important;
+             display: -ms-flexbox;
+             display: flex;
+         
+}
+        
+        
+        
+
+
+
+.isMobile.isPotrait .mobiletheLoveOfOurDogSVG{
+    text-align: center;
+    transform: scale(0.55);
+    /* border: 1px red solid; */
+    margin-bottom: -43px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+
+.isMobile.isSmallScreen.isPotrait .mobiletheLoveOfOurDogSVG{
+    text-align: center;
+    transform: scale(0.55);
+    /* border: 1px red solid; */
+    margin-bottom: -43px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+/* .isMobile .theLoveOfOurDogSVG svg{
+    transform: scale(0.3) translate(0, 0);
+} */
+
+
+.marginTopHelpUs{
+    margin-top:100px;
+}
+
+/* .isMobile .marginTopHelpUs{
+    margin-top:0px;
+} */
+
+.isTablet.isSmallScreen .marginTopHelpUs{
+    margin-top: 40px;
+}
+
+.isTablet.isBigScreen .marginTopHelpUs{
+    margin-top:0px;
+}
+
+
+/*** MOBILE VIEW ***/
+.isMobile .test-bg{
+    background: red;
+    color:white;
+}
+
+
+
+/*** TABLET VIEW ***/
+.isTablet .test-bg{
+    color:blue;
+}
+
+
+
+
+
+.text-center{
+    text-align: center;
+}
+ .text-left{
+    text-align: left;
+    /* padding-left:100px; */
+    margin-top: 50px;
+    margin-bottom:auto;
+}
+
+.text-right{text-align:right;}
+
+.ui-mt-auto{margin-top:auto;}
+.ui-mb-auto{margin-bottom:auto;}
+.ui-ml-auto{margin-left:auto;}
+.ui-mr-auto{margin-right:auto;}
+
+.ui-mt-0{margin-top:0px;}
+.ui-mb-0{margin-bottom:0px;}
+.ui-ml-0{margin-left:0px;}
+.ui-mr-0{margin-right:0px;}
+.ui-m-0{margin:0px;}
+
+.ui-p-0 {padding:0px;}
+.ui-pt-0{padding-top:0px;}
+.ui-pl-0{padding-left:0px;}
+.ui-pr-0{padding-right:0px;}
+.ui-pb-0{padding-bottom:0px;}
+
+
+.ui-pl-70{padding-left:70px;}
+.ui-pl-100{padding-left:100px;}
+
+
+.ui-pr-100{padding-right:100px;}
+
+
+
+.ui-mt-20{margin-top: 20px;}
+.ui-mt-30{margin-top:30px;}
+.ui-mt-40{margin-top:40px;}
+.ui-mt-100{margin-top:100px;}
+.ui-mt-200{margin-top: 200px;}
+.ui-mt-250{margin-top: 250px;}
+.ui-mt-290{margin-top: 290px;}
+.ui-mt-300{margin-top: 300px;}
+.ui-ml-30{margin-left:30px;}
+
+.socialreswhiteLine{width:25px;height:1px;background:white;margin-top:-8px;/* margin-left: auto; *//* margin-right: auto; */}
+
+ .spaceText{margin-top: 400px;/* border:1px red solid; *//* width:300px; */}
+
+.tagline{
+    font-size: 3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+   /* letter-spacing: 0.03em; */
+   line-height:1.5em;
+
+}
+
+.tagline2{
+    font-size: 3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.isApple .tagline2 {
+    margin-left: -90px;
+
+    }
+
+
+.ie .tagline2 {
+    margin-left: -40px;
+
+
+    }
+	
+.ie .marginTBSpace{
+	margin-top:200px;
+}
+.isApple.isMobile .tagline2 {
+  margin-left:0px;
+    
+        }
+    
+.taglineHelpUs{
+    font-size: 3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.tagline3{
+    font-size: 3em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    letter-spacing: 0em;
+    margin-left:-10px;
+}
+
+.socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+ .socialresParaTextLabel
+{
+    font-size:1.2em; 
+    font-weight:300;
+/*font-size:0.9em;*/
+
+color:#ffffff;
+letter-spacing: 0.1em;
+margin-top:30px;
+
+}
+.copyright{
+text-align:left;    
+}
+
+ .socialresParaText
+{
+    /* font-size:1.2em; */
+    /*    font-weight:300;
+font-size:0.8em;
+
+color:#ffffff;
+letter-spacing: 0.1em;*/
+    font-size: 1.1em;
+    color:#ababab;
+    line-height: 2em;
+    letter-spacing: 2px;
+    /* padding-right: 20%; */
+    width: 80%;
+    margin-top: 30px;
+}
+
+
+ .marginTBSpace
+{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-left: 50px;
+    text-align: left;
+}
+
+
+.socialresParaTextLabel2 {
+    font-size: 1.3em;
+    font-weight: 400;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 0%;
+    line-height: 18px;
+    margin-top: 24px;
+    margin-bottom: -5px;
+}
+
+
+.socialresParaTextSmall
+{
+font-size:0.6em;
+color:#ffffff;
+letter-spacing: 0.06em;
+
+}
+
+.centerPara {
+        /* border: 5px solid #FFFF00; */
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width:550px;
+        /* margin-top:50px; */
+        }
+     
+
+ .secspace{
+     /*when use social responisbility not full height JS use this after open back use back margin:200px*/
+    /* margin-top:200px; */ 
+    margin-top:50px;
+    }
+
+
+ .secspace2{
+        margin-top: 70%;
+        }
+
+.footer-btn{
+    text-align:left;
+}
+
+
+/*======= MOBILE VIEW ========*/
+/* .isMobile{} */
+
+body.isMobile.social-res1 {
+    background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 200%;
+    background-position: center 9px;
+}
+
+
+body.isMobile.isLandscape.social-res1 {
+    background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 180%;
+    background-position: center -80px;
+}
+
+
+.isMobile .AtC2RLightningSection {
+    /* background-size: cover; */
+    background-size: 187%;
+    background-position: center -34px;
+    /* height: 279px; */
+}
+
+.isMobile.isLandscape .AtC2RLightningSection {
+    /* background-size: cover; */
+    background-size: 187%;
+    background-position: center -127px;
+    /* height: 699px; */
+    height: 550px;
+}
+
+/*Temporarily comment for non-fullpage*/
+/* .isMobile .secspace {
+    margin-top: 84px;
+} */
+
+.isMobile .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 332px;
+    /* width: 100%; */
+    margin-right:0;
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* border: 1px red solid; */
+    /* margin: 0 auto; */
+}
+
+
+.isMobile .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 347px;
+    /* width: 100%; */
+    
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* border: 1px red solid; */
+    /* margin: 0 auto; */
+}
+
+
+.isMobile.isPotrait .spaceText {
+    margin-top: 173px;
+    /* padding-left: 70px; */
+    /* padding-right: 70px; */
+    margin-bottom: 75px;
+}
+
+
+.isMobile.isLandscape .spaceText {
+    margin-top: 183px;
+    /* padding-left: 70px; */
+    /* padding-right: 70px; */
+}
+.isMobile .tagline{
+    font-size: 1.7em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    /* line-height:1em; */
+}
+
+.isMobile .tagline2{
+    font-size: 1.9em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%); */
+}
+
+
+.isMobile .taglineHelpUs
+{
+    font-size: 1.7em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+}
+
+
+
+.isMobile  .tagline2a{
+    font-size: 1.7em;
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+}
+
+
+.isMobile  .tagline3{
+    font-size: 2em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    margin-left: -6px;
+    /* letter-spacing: 0.03em; */
+}
+.isMobile.socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   margin-top:30px;
+}
+
+.isMobile .socialresParaTextLabel
+{
+    font-size: 1em;
+    font-weight: 400;
+    /*font-size:0.9em;*/
+    width:100%;
+    color:#ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    margin-top: 22px;
+    margin-bottom: -5px;
+}
+
+.isMobile .socialresParaTextLabel2 {
+    font-size: 1em;
+    font-weight: 400;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+
+.isMobile .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    }
+
+.isMobile .socialresParaText
+    {
+  /* font-size: 0.8em; */
+  font-size:0.9em;
+color:#ababab;
+
+line-height: 2em;
+
+letter-spacing: 2px;
+
+width: 100%;
+
+padding-left: 15%;
+
+padding-right: 15%;
+
+/* border: 1px red solid; */
+
+padding-top: 5%;
+}
+
+
+.isMobile .marginTBSpace {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+        
+    .isMobile .socialresParaTextMobile
+    {
+
+  /* font-size: 0.8em; */
+  font-size:0.9em;
+
+color:#ababab;
+
+line-height: 2em;
+
+letter-spacing: 2px;
+
+/* padding-right:-20px; */
+
+padding-left: 20%;
+
+padding-right: 20%;
+
+text-align: center;
+
+/* border: 1px red solid; */
+
+width: 100%;
+}
+    
+    .isMobile .text-left{
+        padding-left:50px;
+        margin-top:auto;
+        margin-bottom:auto;
+    }x
+    .isMobile .secspace{
+        margin-top: 10%;
+        }
+
+
+   .isMobile .secspace2 {
+            margin-top: 40px;
+        }
+
+.isMobile.isLandscape .secspace2 {
+            margin-top: 10px;
+        }
+
+
+ /* .isMobile.isLandscape .secspace {
+            margin-top: -28px;
+        } */
+
+.isMobile .missionCSS{
+    
+margin: 0 auto;
+    
+text-align: center;
+    
+padding-left: 0px;
+}
+
+
+.isMobile .LoveDogCSS
+{
+
+        margin: 0 auto;
+        text-align: center;
+        
+}
+
+.isMobile .socialreswhiteLine {
+    width: 25px;
+    height: 1px;
+    background: white;
+    /* margin-top: -8px; */
+    margin: -8px auto;
+}
+
+
+
+.isMobile .widthAtC2R{
+    /* border:1px red solid; */
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+/*======= SMALL MOBILE VIEW ========*/
+/* .isMobile.isSmallScreen {} */
+.isMobile.isSmallScreen .missionCSS{
+width: 100%;
+}
+
+.isMobile.isSmallScreen .widthAtC2R {
+    /* border: 1px red solid; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body.isMobile.isSmallScreen.social-res1 {
+        background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 185%;
+        background-position: -134px 47px;
+    }
+
+.isMobile.isSmallScreen .taglineHelpUs
+{
+    font-size: 1.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+}
+
+
+    
+
+.isMobile.isSmallScreen .secspace2{
+        margin-top: 90px;
+        }
+
+.isMobile.isSmallScreen  .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 288px;
+    width: 100%;
+    
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:right; */
+    /* border: 1px red solid; */
+}
+
+
+.isMobile.isSmallScreen  .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 298px;
+    width: 100%;
+    
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:left; */
+}
+
+.isMobile.isSmallScreen .secspace {
+    margin-top: 17%;
+}
+
+
+.isMobile.isSmallScreen .spaceText{margin-top: 128px;/* padding-left: 40px; *//* padding-right: 40px; */}
+
+.isMobile.isSmallScreen .tagline{
+    font-size: 1.25em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    line-height:1em;
+}
+
+.isMobile.isSmallScreen .tagline2{
+    font-size: 1.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    text-align: center;
+}
+
+.isMobile.isSmallScreen .tagline2a{
+    font-size: 1.55em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+.isMobile.isSmallScreen .tagline3{
+    font-size: 1.8em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    /* line-height:1em; */
+    margin-left: -4px;
+}
+
+
+.isMobile.isSmallScreen .socialresLabel{
+    font-size: 0.9em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.isMobile.isSmallScreen  .socialresParaTextLabel
+{
+    font-size: 0.9em;
+    font-weight:300;
+    /*font-size:0.9em;*/
+    width:100%;
+    color:#ffffff;
+    letter-spacing: 0.1em;
+    padding-right:20px;
+    padding-left:20px;
+    margin-top:20px;
+}
+
+.isMobile.isSmallScreen  .socialresParaTextLabel2 {
+    font-size: 0.9em;
+    font-weight: 300;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+}
+
+
+.isMobile.isSmallScreen  .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 50px; */
+    }
+
+
+    .isMobile.isSmallScreen .socialresParaText 
+    {
+        /* font-size:1.2em; */
+        /*    font-weight:300;
+    font-size:0.8em;
+    
+    color:#ffffff;
+    letter-spacing: 0.1em;*/
+     /* font-size: 0.8em; */
+  font-size:0.9em;
+        color:#ababab;
+        line-height: 2em;
+        letter-spacing: 2px;
+        padding-right: 15%;
+        padding-right: 15%;
+        /* border: 1px blue solid; */
+        width: 100%;
+        padding-top: 7%;
+    }
+
+    .isMobile.isSmallScreen .text-left{
+        text-align: left;
+        padding-left:50px;
+        margin-top:auto;margin-bottom:auto;
+    }
+
+    .isMobile.isSmallScreen .socialresLabel {
+        font-size: 1em;
+        font-weight: 600;
+        color: #ffffff;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    
+
+/*======= TABLET VIEW ========*/
+/* .isTablet{} */
+
+.isTablet.widthAtC2R {
+    /* border: 1px red solid; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.isTablet .marginTopHelpUs {
+    margin-top: 0px;
+}
+
+body.isTablet.social-res1 {
+    background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 200%;
+    background-position: -389px 9px;
+}
+
+body.isTablet.isLandscape.social-res1 {
+    background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 200%;
+    background-position: center -109px;
+}
+
+.isTablet .AtC2RLightningSection {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 180%;
+    background-position: center -86px;
+    /* height: 500px; */
+}
+
+.isTablet .secspace2{
+    margin-top: 90px;
+    }
+
+.isTablet.isLandscape .secspace2 {
+        margin-top: 137px;
+    }
+
+.isTablet .socialreswhiteLine {
+    width: 25px;
+    height: 1px;
+    background: white;
+    /* margin-top: -8px; */
+    margin: 6px auto;
+}
+
+.isTablet .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 694px;
+    width: 100%;
+    
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:right; */
+    /* border: 1px red solid; */
+    margin: 18px auto;
+}
+
+
+.isTablet .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 768px;
+    width: 94%;
+    
+    /* You must set a specified height */
+    background-position: left center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:left; */
+    /* margin-left: -14px; */
+    /* border: 1px red solid; */
+    margin: 0 auto;
+}
+
+.isTablet.isLandscape .socialResSec3Bg {
+    /* background-image: url(../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg); */
+    background-color: black;
+    height: 768px;
+    width: 94%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* text-align: left; */
+    /* margin-left: -14px; */
+    /* border: 1px red solid; */
+    margin: 0 auto;
+}
+
+
+.isTablet .taglineHelpUs
+{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+}
+
+
+
+.isTablet .spaceText{margin-top: 278px;padding-left: 15%;padding-right: 15%;margin-bottom: 261px;}
+
+.isTablet.isLandscape .spaceText {
+    margin-top: 355px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 0px;
+}
+
+.isTablet .tagline{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+   /* letter-spacing: 0.03em; */
+   /* line-height:1em; */
+}
+
+.isTablet .tagline2{
+    font-size: 2.5em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-left:-6px;
+}
+
+
+.isTablet .tagline3{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    margin-left: -8px;
+    /* letter-spacing: 0.03em; */
+}
+.isTablet .socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   margin-top:12px
+}
+
+.isTablet .socialresParaTextLabel
+{
+    font-size: 1.2em;
+    font-weight:300;
+    /*font-size:0.9em;*/
+    width:100%;
+    color:#ffffff;
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.isTablet .socialresParaTextLabel2 {
+    font-size: 1em;
+    font-weight: 400;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 18px;
+    margin-top: 12px;
+    margin-bottom: -5px;
+}
+
+
+.isTablet .missionCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+
+.isTablet .LoveDogCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+.isTablet .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    }
+
+.isTablet .socialresParaText
+    {
+        font-size: 1em;
+        /*    font-weight:300;
+    font-size:0.8em;
+    
+    color:#ffffff;
+    letter-spacing: 0.1em;*/
+        /* font-size: 0.8em; */
+        color:#ababab;
+        line-height: 2em;
+        letter-spacing: 2px;
+        padding-right: 50px;
+        padding-left: 50px;
+        /* border: 1px red solid; */
+        width: 100%;
+    }
+    
+    .isTablet .text-left{
+        text-align: left;
+        padding-left:78px;
+        padding-right:50px;
+        margin-top:auto;margin-bottom:auto;
+    }
+
+    .isTablet.isLandscape .copyright{
+        text-align: center;
+        padding-left: 78px;
+        padding-right: 50px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .isTablet .secspace{
+        margin-top: 5%;
+        }
+
+ .isTablet .marginTBSpace {
+            margin-top: auto;
+            margin-bottom: auto;
+            /* padding-left: 50px; */
+            padding: 0;
+            text-align: center;
+        }
+
+.isTablet .socialresLabel {
+            font-size: 1em;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        
+    
+
+/*======= SMALL TABLET VIEW ========*/
+/* .isTablet.isSmallScreen {} */
+.isTablet.isSmallScreen .widthAtC2R {
+    /* border: 1px red solid; */
+    padding-left: 9%;
+    padding-right: 10%;
+}
+
+ body.isTablet.isSmallScreen.social-res1 {
+    /* background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 150%;
+    background-position: -144px 9px;
+}
+
+.isTablet.isSmallScreen .AtC2RLightningSection {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 170%;
+    background-position: center 9px;
+    /* height: 500px; */
+}
+
+.isTablet.isLandscape .AtC2RLightningSection {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 180%;
+    background-position: center -86px;
+    height: 837px;
+}
+.isTablet.isSmallScreen .secspace2{
+    margin-top: 0px;
+    }
+
+.isTablet.isSmallScreen .socialreswhiteLine {
+    width: 25px;
+    height: 1px;
+    background: white;
+    /* margin-top: -8px; */
+    margin: -8px auto;
+}
+
+.isTablet.isSmallScreen .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 528px;
+    width: 100%;
+    margin-right:0;
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    text-align:right;
+    /* border: 1px red solid; */
+}
+
+.isTablet.isSmallScreen  .taglineHelpUs
+{
+    font-size: 2em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    /* background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%); */
+    width:100%;
+    /* border:1px red solid; */
+}
+
+
+.isTablet.isSmallScreen .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 570px;
+    width: 92%;
+    /* margin-right:0; */
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:left; */
+    /* margin-left: 14px; */
+    margin: 0 auto;
+    /* border: 1px red solid; */
+}
+
+
+.isTablet.isSmallScreen .spaceText{
+    margin-top: 278px;
+    /* padding-left: 13%; */
+    /* padding-right: 13%; */
+    margin-bottom: 149px;
+}
+
+.isTablet.isSmallScreen .tagline{
+    font-size: 2em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    /* line-height:1em; */
+}
+
+.isTablet.isSmallScreen .tagline2{
+    font-size: 2em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-left:-6px;
+}
+
+
+.isTablet.isSmallScreen .tagline3{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    margin-left: -7px;
+    /* letter-spacing: 0.03em; */
+}
+.isTablet.isSmallScreen .socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   margin-top:12px
+}
+
+.isTablet.isSmallScreen .socialresParaTextLabel
+{
+    font-size:1em;
+    font-weight:300;
+    /*font-size:0.9em;*/
+    width:100%;
+    color:#ffffff;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.isTablet.isSmallScreen .socialresParaTextLabel2 {
+    font-size: 0.9em;
+    font-weight: 300;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    margin-top: 12px;
+    margin-bottom: -5px;
+}
+
+
+.isTablet.isSmallScreen .missionCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.isTablet.isSmallScreen .LoveDogCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+.isTablet.isSmallScreen .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: -26px;
+    }
+
+    .isTablet.isSmallScreen .socialresParaText
+    {
+        /* font-size:1.2em; */
+        /*    font-weight:300;
+    font-size:0.8em;
+    
+    color:#ffffff;
+    letter-spacing: 0.1em;*/
+        /* font-size: 0.8em; */
+  font-size:0.9em;
+        color:#ababab;
+        line-height: 2em;
+        letter-spacing: 2px;
+        padding-right: 50px;
+        padding-left: 50px;
+        /* border: 1px red solid; */
+        width: 100%;
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+    
+    .isTablet.isSmallScreen .text-left{
+        text-align: left;
+        padding-left:78px;
+        padding-right:50px;
+        margin-top:auto;margin-bottom:auto;
+    }
+.isTablet.isSmallScreen.secspace{
+        margin-top:100px}
+
+
+.isTablet.isSmallScreen .socialresLabel {
+            font-size: 1em;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        
+
+/*============ BIG TABLET VIEW===============*/
+
+.isTablet.isBigScreen  .widthAtC2R {
+    /* border: 1px red solid; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body.isTablet.isBigScreen .social-res1 {
+    /* background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 180%;
+    background-position: -397px 9px;
+}
+
+
+body.isTablet.isBigScreen.isLandscape.social-res1 {
+    /* background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 157%;
+    background-position: center -75px;
+}
+
+
+.isTablet.isBigScreen .AtC2RLightningSection {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 180%;
+    background-position: center -86px;
+    /* height: 500px; */
+}
+
+.isTablet.isBigScreen .secspace2{
+    margin-top: 174px;
+    }
+
+    .isTablet.isBigScreen.isLandscape .secspace2 {
+        margin-top: 181px;
+    }
+
+
+
+.isTablet.isBigScreen .socialreswhiteLine {
+    width: 25px;
+    height: 1px;
+    background: white;
+    /* margin-top: -8px; */
+    margin: 8px auto;
+}
+
+.isTablet.isBigScreen .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 522px;
+    /* width: 100%; */
+    /* margin-right:0; */
+    /* You must set a specified height */
+    background-position: right center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: 93%;
+    /* Resize the background image to cover the entire container */
+    /* text-align:right; */
+    /* background-position: 2px 135px; */
+    /* border: 1px red solid; */
+    /* margin: 0 auto; */
+}
+
+.isTablet.isBigScreen .taglineHelpUs
+{
+    font-size: 2.8em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+}
+
+.isTablet.isBigScreen .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 522px;
+    /* width: 100%; */
+    /* margin-right:0; */
+    /* You must set a specified height */
+    background-position: left center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:left; */
+    margin-left: -14px;
+    /* margin: 0 auto; */
+    /* border: 1px red solid; */
+}
+
+
+.isTablet.isBigScreen .spaceText{margin-top: 386px;padding-left:20px;padding-right:20px;margin-bottom: 368px;}
+
+.isTablet.isPotrait.isBigScreen .tagline{
+    font-size: 2.8em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing: 0.05em;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    /* line-height:1em; */
+}
+
+.isTablet.isBigScreen.isLandscape .spaceText {
+    margin-top: 348px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.isTablet.isBigScreen.isPotrait .tagline2{
+    font-size: 2.8em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* margin-left:-6px; */
+}
+.isTablet.isBigScreen.isLandscape .tagline2 {
+    font-size: 2.5em;
+    /* font-size: 4em; */
+    font-weight: 900;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight: 900; */
+    /* letter-spacing: 0.03em; */
+    margin-left: 3px;
+}
+
+
+.isTablet.isBigScreen .tagline3{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    margin-left: -9px;
+    /* letter-spacing: 0.03em; */
+}
+.isTablet.isBigScreen .socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   margin-top:12px
+}
+
+.isTablet.isBigScreen .socialresParaTextLabel
+{
+    font-size: 1.5em;
+    font-weight:300;
+    /*font-size:0.9em;*/
+    width:100%;
+    color:#ffffff;
+    letter-spacing: 0.1em;
+    margin-top:20px;
+}
+
+.isTablet.isBigScreen  .socialresParaTextLabel2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 0%;
+    line-height: 18px;
+    margin-top: 24px;
+    margin-bottom: -5px;
+}
+
+.isTablet.isBigScreen .missionCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+
+.isTablet.isBigScreen .LoveDogCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+.isTablet.isBigScreen .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top:50px;
+    }
+
+.isTablet.isBigScreen .socialresParaText
+    {
+        font-size: 1.2em;
+        /*    font-weight:300;
+    font-size:0.8em;
+    
+    color:#ffffff;
+    letter-spacing: 0.1em;*/
+        /* font-size: 0.8em; */
+        color:#ababab;
+        line-height: 2em;
+        letter-spacing: 2px;
+        padding-right: 10%;
+        padding-left: 10%;
+        /* border: 1px red solid; */
+        width: 100%;
+    }
+    
+    .isTablet.isBigScreen .text-left{
+        text-align: left;
+        padding-left:78px;
+        padding-right:50px;
+        margin-top:auto;margin-bottom:auto;
+    }
+    .isTablet.isBigScreen .secspace{
+        margin-top:100px;
+    }
+
+        .isTablet.isBigScreen .marginTBSpace {
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+ .isTablet.isBigScreen .secspace {
+            margin-top: 5%;
+        }
+
+.isTablet.isBigScreen.isLandscape .secspace {
+            margin-top: 7%;
+        }
+
+.isTablet.isBigScreen .socialresLabel {
+            font-size: 1em;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+
+
+
+        /* Landscape */
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .isTablet.isBigScreen.isLandscape .tagline2 {
+        margin-left: 61px;
+        width: 80%;
+        /* border: 1px red solid; */
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+  .isTablet.isBigScreen.isLandscape .spaceText {
+    margin-top: 290px;
+
+}
+
+.isTablet.isLandscape.isBigScreen .AtC2RLightningSection
+{
+    background-position:center;
+}
+
+
+
+}
+
+
+
+/* Landscape ipad pro*/
+@media only screen 
+and (min-width: 1366px) 
+and (max-height: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+
+  .isTablet.isBigScreen.isLandscape .spaceText {
+    margin-top: 490px;
+    }
+
+}
+
+/*** PC VIEW ***/
+
+
+body.social-res1
+{
+    background-image: url('../../images/social-responsibility/book-1822474_1920_EDIT1.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover;  */
+    background-size:110%;
+    background-position: -74px 9px;
+    /* height:500px; */
+}
+
+ .AtC2RLightningSection
+{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover;  */
+    background-size: 100%;
+    background-position: center -86px;
+    /* height:500px; */
+}
+
+.socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black;
+    height: 700px; 
+    width: 100%; 
+    margin-right:0;
+    background-position: right center; 
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black;
+    height: 700px; 
+    width: 100%; 
+    margin-right:0;
+    background-position: left center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    /* text-align:left; */
+}
+
+
+ .missionCSS{
+    padding-left: 90px;
+    text-align: left;
+}
+
+
+
+/*** MOBILE VIEW ***/
+.isMobile .test-bg{
+    background: red;
+    color:white;
+}
+
+
+
+/*** TABLET VIEW ***/
+.isTablet .test-bg{
+    color:blue;
+}
+
+
+
+
+
+.text-center{
+    text-align: center;
+}
+ .text-left{
+    text-align: left;
+    /* padding-left:100px; */
+    margin-top: 50px;
+    margin-bottom:auto;
+}
+
+.text-right{text-align:right;}
+
+.ui-mt-auto{margin-top:auto;}
+.ui-mb-auto{margin-bottom:auto;}
+.ui-ml-auto{margin-left:auto;}
+.ui-mr-auto{margin-right:auto;}
+
+.ui-mt-0{margin-top:0px;}
+.ui-mb-0{margin-bottom:0px;}
+.ui-ml-0{margin-left:0px;}
+.ui-mr-0{margin-right:0px;}
+.ui-m-0{margin:0px;}
+
+.ui-p-0 {padding:0px;}
+.ui-pt-0{padding-top:0px;}
+.ui-pl-0{padding-left:0px;}
+.ui-pr-0{padding-right:0px;}
+.ui-pb-0{padding-bottom:0px;}
+
+
+.ui-pl-70{padding-left:70px;}
+.ui-pl-100{padding-left:100px;}
+
+
+.ui-pr-100{padding-right:100px;}
+
+
+
+.ui-mt-20{margin-top: 20px;}
+.ui-mt-30{margin-top:30px;}
+.ui-mt-40{margin-top:40px;}
+.ui-mt-100{margin-top:100px;}
+.ui-mt-200{margin-top: 200px;}
+.ui-mt-250{margin-top: 250px;}
+.ui-mt-290{margin-top: 290px;}
+.ui-mt-300{margin-top: 300px;}
+.ui-ml-30{margin-left:30px;}
+
+.socialreswhiteLine{width:25px;height:1px;background:white;margin-top:-8px;/* margin-left: auto; *//* margin-right: auto; */}
+
+ .spaceText{
+     /* margin-top: 400px; */
+     margin-top: 317px;
+     /* border:1px red solid; */
+     /* width:300px; */}
+
+.tagline{
+    /* font-size: 2.9em; */
+    font-size: 2.6em;
+    /* font-size:4em; */
+    /* font-weight:900; */
+    letter-spacing:0em;
+    color:#ffffff;
+    font-weight:700;
+    /* letter-spacing: 0.03em; */
+    line-height: 1.3em;
+}
+
+.tagline2{
+    font-size: 3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.taglineHelpUs{
+    font-size: 3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.tagline3{
+    font-size: 3em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    letter-spacing: 0em;
+    margin-left:-10px;
+}
+
+.socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+ .socialresParaTextLabel
+{
+    font-size:1.2em; 
+    font-weight:300;
+/*font-size:0.9em;*/
+
+color:#ffffff;
+letter-spacing: 0.1em;
+margin-top:30px;
+
+}
+
+
+ .socialresParaText
+{
+    /* font-size:1.2em; */
+    /*    font-weight:300;
+font-size:0.8em;
+
+color:#ffffff;
+letter-spacing: 0.1em;*/
+    font-size: 1.1em;
+    color:#ababab;
+    line-height: 2em;
+    letter-spacing: 2px;
+    /* padding-right: 20%; */
+    width: 80%;
+    margin-top: 30px;
+}
+
+
+ .marginTBSpace
+{
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-left: 50px;
+    text-align: left;
+}
+
+
+.socialresParaTextLabel2 {
+    font-size: 1.3em;
+    font-weight: 400;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 0%;
+    line-height: 18px;
+    margin-top: 24px;
+    margin-bottom: -5px;
+}
+
+
+.socialresParaTextSmall
+{
+font-size:0.6em;
+color:#ffffff;
+letter-spacing: 0.06em;
+
+}
+
+.centerPara {
+        /* border: 5px solid #FFFF00; */
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width:550px;
+        /* margin-top:50px; */
+        }
+
+
+
+/*======= MOBILE VIEW ========*/
+/* .isMobile{} */
+
+body.isMobile.social-res1 {
+    background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 200%;
+    background-position: center 9px;
+}
+
+
+body.isMobile.isLandscape.social-res1 {
+    background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 180%;
+    background-position: center -80px;
+}
+
+
+.isMobile .AtC2RLightningSection {
+    /* background-size: cover; */
+    background-size: 187%;
+    background-position: center -34px;
+    /* height: 279px; */
+}
+
+.isMobile .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 347px;
+    /* width: 100%; */
+    margin-right:0;
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* border: 1px red solid; */
+    /* margin: 0 auto; */
+}
+
+
+.isMobile .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 347px;
+    /* width: 100%; */
+    
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* border: 1px red solid; */
+    /* margin: 0 auto; */
+}
+
+
+.isMobile.isPotrait .spaceText {
+    margin-top: 173px;
+    /* padding-left: 70px; */
+    /* padding-right: 70px; */
+    margin-bottom: 75px;
+}
+
+
+.isMobile.isLandscape .spaceText {
+    margin-top: 183px;
+    /* padding-left: 70px; */
+    /* padding-right: 70px; */
+}
+.isMobile .tagline{
+    font-size: 1.7em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    /* line-height:1em; */
+}
+
+.isMobile .tagline2{
+    font-size: 1.9em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%); */
+}
+
+
+.isMobile .taglineHelpUs
+{
+    font-size: 1.7em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    margin-top: 30px;
+}
+
+
+.isApple.isMobile .taglineHelpUs {
+    font-size: 1.7em;
+    /* font-size: 4em; */
+    font-weight: 900;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    text-align: center;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+    margin-top: 80px;
+    }
+
+
+.isMobile  .tagline2a{
+    font-size: 1.7em;
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+}
+
+
+.isMobile  .tagline3{
+    font-size: 2em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    margin-left: -6px;
+    /* letter-spacing: 0.03em; */
+}
+.isMobile.socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   margin-top:30px;
+}
+
+.isMobile .socialresParaTextLabel
+{
+    font-size: 1em;
+    font-weight: 400;
+    /*font-size:0.9em;*/
+    width:100%;
+    color:#ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    margin-top: 22px;
+    margin-bottom: -5px;
+}
+
+.isMobile.isLandscape .socialresParaTextLabel {
+    margin-bottom: 15px;
+}
+
+.isMobile .socialresParaTextLabel2 {
+    font-size: 1em;
+    font-weight: 400;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+
+.isMobile .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    }
+
+   .isMobile.isLandscape .centerPara {
+
+margin-top: -25px;
+
+margin-bottom: -30px;
+
+}
+
+.isMobile .socialresParaText
+    {
+  /* font-size: 0.8em; */
+  font-size:0.9em;
+color:#ababab;
+
+line-height: 2em;
+
+letter-spacing: 2px;
+
+width: 100%;
+
+padding-left: 15%;
+
+padding-right: 15%;
+
+/* border: 1px red solid; */
+
+padding-top: 5%;
+}
+
+.isMobile.isLandscape .socialresParaText {
+
+    padding-top: 0%;
+}
+
+
+.isMobile .marginTBSpace {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+        
+    .isMobile .socialresParaTextMobile
+    {
+
+  /* font-size: 0.8em; */
+  font-size:0.9em;
+
+color:#ababab;
+
+line-height: 2em;
+
+letter-spacing: 2px;
+
+/* padding-right:-20px; */
+
+padding-left: 20%;
+
+padding-right: 20%;
+
+text-align: center;
+
+/* border: 1px red solid; */
+
+width: 100%;
+}
+    
+    .isMobile .text-left{
+        padding-left:50px;
+        margin-top:auto;
+        margin-bottom:auto;
+    }
+    .isMobile .secspace{
+        margin-top: 10%;
+        }
+
+.isMobile.isLandscape .secspace{
+            margin-top: 10%;
+            /* border: 1px red solid; */
+            }
+    
+
+   .isMobile .secspace2 {
+            margin-top: 40px;
+        }
+
+
+.isMobile.isLandscape .secspace2 {
+            margin-top: 333px;
+        }
+
+.isMobile .missionCSS{
+    
+margin: 0 auto;
+    
+text-align: center;
+    
+padding-left: 0px;
+}
+
+
+.isMobile .LoveDogCSS
+{
+        /* margin: 0 auto; */
+        margin: 21px auto;
+        text-align: center;
+        
+}
+
+.isMobile .socialreswhiteLine {
+    width: 25px;
+    height: 1px;
+    background: white;
+    /* margin-top: -8px; */
+    margin: -8px auto;
+}
+
+
+
+.isMobile .widthAtC2R{
+    /* border:1px red solid; */
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.isMobile .socialresLabel {
+    font-size: 1em;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+/*======= SMALL MOBILE VIEW ========*/
+/* .isMobile.isSmallScreen {} */
+.isMobile.isSmallScreen .missionCSS{
+width: 100%;
+}
+
+.isMobile.isSmallScreen .widthAtC2R {
+    /* border: 1px red solid; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body.isMobile.isSmallScreen.social-res1 {
+        background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 185%;
+        background-position: -134px 47px;
+    }
+
+.isMobile.isSmallScreen .taglineHelpUs
+{
+    font-size: 1.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+}
+
+
+    
+
+.isMobile.isSmallScreen .secspace2{
+        margin-top: 90px;
+        }
+
+.isMobile.isSmallScreen  .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 253px;
+    width: 100%;
+    
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:right; */
+    /* border: 1px red solid; */
+}
+
+
+.isMobile.isSmallScreen  .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 298px;
+    width: 100%;
+    
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:left; */
+    /* border: 1px red solid; */
+}
+
+.isMobile.isSmallScreen .secspace {
+    margin-top: 7%;
+}
+
+
+.isMobile.isSmallScreen .spaceText{margin-top:160px;/* padding-left: 40px; *//* padding-right: 40px; */}
+
+.isMobile.isSmallScreen .tagline{
+    font-size: 1.25em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    line-height:1em;
+}
+
+.isMobile.isSmallScreen .tagline2{
+    font-size: 1.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+    text-align: center;
+}
+
+.isMobile.isSmallScreen .tagline2a{
+    font-size: 1.55em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+.isMobile.isSmallScreen .tagline3{
+    font-size: 1.8em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    /* line-height:1em; */
+    margin-left: -4px;
+}
+
+
+.isMobile.isSmallScreen .socialresLabel{
+    font-size: 0.9em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.isMobile.isSmallScreen  .socialresParaTextLabel
+{
+    font-size: 0.9em;
+    font-weight:300;
+    /*font-size:0.9em;*/
+    width:100%;
+    color:#ffffff;
+    letter-spacing: 0.1em;
+    padding-right:20px;
+    padding-left:20px;
+    margin-top:20px;
+}
+
+.isMobile.isSmallScreen  .socialresParaTextLabel2 {
+    font-size: 0.9em;
+    font-weight: 300;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: -5px;
+}
+
+
+.isMobile.isSmallScreen  .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 50px; */
+    }
+
+
+    .isMobile.isSmallScreen .socialresParaText 
+    {
+        /* font-size:1.2em; */
+        /*    font-weight:300;
+    font-size:0.8em;
+    
+    color:#ffffff;
+    letter-spacing: 0.1em;*/
+     /* font-size: 0.8em; */
+  font-size:0.9em;
+        color:#ababab;
+        line-height: 2em;
+        letter-spacing: 2px;
+        padding-right: 15%;
+        padding-right: 15%;
+        /* border: 1px blue solid; */
+        width: 100%;
+        padding-top: 7%;
+    }
+
+    .isMobile.isSmallScreen .text-left{
+        text-align: left;
+        padding-left:50px;
+        margin-top:auto;margin-bottom:auto;
+    }
+
+    .isMobile.isSmallScreen .socialresLabel {
+        font-size: 1em;
+        font-weight: 600;
+        color: #ffffff;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        /* margin-top: 10px; */
+        /* margin-top:50px; */
+        
+    }
+    
+
+/*======= TABLET VIEW ========*/
+/* .isTablet{} */
+
+.isTablet.widthAtC2R {
+    /* border: 1px red solid; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body.isTablet.social-res1 {
+    background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 200%;
+    background-position: -389px 9px;
+}
+
+body.isTablet.isLandscape.social-res1 {
+    background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 200%;
+    background-position: center -109px;
+}
+
+
+.isTablet .secspace2{
+    margin-top: 90px;
+    }
+
+.isTablet.isLandscape .secspace2 {
+        margin-top: 439px;
+    }
+
+.isTablet .socialreswhiteLine {
+    width: 25px;
+    height: 1px;
+    background: white;
+    /* margin-top: -8px; */
+    margin: 6px auto;
+}
+
+.isTablet .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 694px;
+    width: 100%;
+    
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:right; */
+    /* border: 1px red solid; */
+    margin: 18px auto;
+}
+
+
+.isTablet .socialResSec3Bg{
+    background-color: black; 
+    height: 768px;
+    width: 94%;
+    background-position:center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.isTablet.isLandscape .socialResSec3Bg {
+    /* background-image: url(../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg); */
+    background-color: black;
+    height: 768px;
+    width: 94%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* text-align: left; */
+    /* margin-left: -14px; */
+    /* border: 1px red solid; */
+    margin: 0 auto;
+}
+
+
+.isTablet .taglineHelpUs
+{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+}
+
+
+
+.isTablet .spaceText{margin-top: 278px;padding-left: 15%;padding-right: 15%;margin-bottom: 261px;}
+
+.isTablet .tagline{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+   /* letter-spacing: 0.03em; */
+   /* line-height:1em; */
+}
+
+.isTablet .tagline2{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-left:-6px;
+}
+
+
+.isTablet .tagline3{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    margin-left: -8px;
+    /* letter-spacing: 0.03em; */
+}
+.isTablet .socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   margin-top:12px
+}
+
+.isTablet .socialresParaTextLabel {
+    font-size: 1.2em;
+    font-weight: 300;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin-top: 5px;
+    margin-bottom: -30px;
+}
+
+.isTablet .socialresParaTextLabel2 {
+    font-size: 1em;
+    font-weight: 400;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 18px;
+    margin-top: 12px;
+    margin-bottom: -5px;
+}
+
+
+.isTablet .missionCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+
+.isTablet .LoveDogCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+.isTablet .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    }
+
+.isTablet .socialresParaText
+    {
+        font-size: 1em;
+        /*    font-weight:300;
+    font-size:0.8em;
+    
+    color:#ffffff;
+    letter-spacing: 0.1em;*/
+        /* font-size: 0.8em; */
+        color:#ababab;
+        line-height: 2em;
+        letter-spacing: 2px;
+        padding-right: 50px;
+        padding-left: 50px;
+        /* border: 1px red solid; */
+        width: 100%;
+
+    }
+    
+    .isTablet .text-left{
+        text-align: left;
+        padding-left:78px;
+        padding-right:50px;
+        margin-top:auto;margin-bottom:auto;
+    }
+    .isTablet .secspace{
+        margin-top: 5%;
+        }
+
+ .isTablet .marginTBSpace {
+            margin-top: auto;
+            margin-bottom: auto;
+            /* padding-left: 50px; */
+            padding: 0;
+            text-align: center;
+        }
+
+.isTablet .socialresLabel {
+            font-size: 1em;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        
+    
+
+/*======= SMALL TABLET VIEW ========*/
+/* .isTablet.isSmallScreen {} */
+.isTablet.isSmallScreen .widthAtC2R {
+    /* border: 1px red solid; */
+    padding-left: 9%;
+    padding-right: 10%;
+}
+
+ body.isTablet.isSmallScreen.social-res1 {
+    /* background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 150%;
+    background-position: -144px 9px;
+}
+
+.isTablet.isSmallScreen .AtC2RLightningSection {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 170%;
+    background-position: center 9px;
+    /* height: 500px; */
+}
+
+.isTablet.isSmallScreen .secspace2{
+    margin-top: 170px;
+    }
+
+.isTablet.isSmallScreen .socialreswhiteLine {
+    width: 25px;
+    height: 1px;
+    background: white;
+    /* margin-top: -8px; */
+    margin: -8px auto;
+}
+
+.isTablet.isSmallScreen .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 528px;
+    width: 100%;
+    margin-right:0;
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    text-align:right;
+    /* border: 1px red solid; */
+}
+
+.isTablet.isSmallScreen  .taglineHelpUs
+{
+    font-size: 2em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    /* background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%); */
+    width:100%;
+    /* border:1px red solid; */
+}
+
+
+.isTablet.isSmallScreen .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 570px;
+    width: 92%;
+    /* margin-right:0; */
+    /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:left; */
+    /* margin-left: 14px; */
+    margin: 0 auto;
+    /* border: 1px red solid; */
+}
+
+
+.isTablet.isSmallScreen .spaceText{
+    margin-top: 278px;
+    /* padding-left: 13%; */
+    /* padding-right: 13%; */
+    margin-bottom: 149px;
+}
+
+.isTablet.isSmallScreen .tagline{
+    font-size: 2em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    /* line-height:1em; */
+}
+
+.isTablet.isSmallScreen .tagline2{
+    font-size: 2em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-left:-6px;
+}
+
+
+.isTablet.isSmallScreen .tagline3{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    margin-left: -7px;
+    /* letter-spacing: 0.03em; */
+}
+.isTablet.isSmallScreen .socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   margin-top:12px
+}
+
+
+.isTablet.isSmallScreen .socialresParaTextLabel {
+    font-size: 1em;
+    font-weight: 300;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin-top: 17px;
+    margin-bottom: 30px;
+}
+
+.isTablet.isSmallScreen .socialresParaTextLabel2 {
+    font-size: 0.9em;
+    font-weight: 300;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 18px;
+    margin-top: 12px;
+    margin-bottom: -5px;
+}
+
+
+.isTablet.isSmallScreen .missionCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.isTablet.isSmallScreen .LoveDogCSS {
+    /* margin-left: 90px; */
+    /* margin: 0 auto; */
+    margin: 16px auto;
+    text-align: center;
+}
+.isTablet.isSmallScreen .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: -26px;
+    }
+
+    .isTablet.isSmallScreen .socialresParaText
+    {
+        /* font-size:1.2em; */
+        /*    font-weight:300;
+    font-size:0.8em;
+    
+    color:#ffffff;
+    letter-spacing: 0.1em;*/
+        /* font-size: 0.8em; */
+  font-size:0.9em;
+        color:#ababab;
+        line-height: 2em;
+        letter-spacing: 2px;
+        padding-right: 50px;
+        padding-left: 50px;
+        /* border: 1px red solid; */
+        width: 100%;
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+    
+    .isTablet.isSmallScreen .text-left{
+        text-align: left;
+        padding-left:78px;
+        padding-right:50px;
+        margin-top:auto;margin-bottom:auto;
+    }
+.isTablet.isSmallScreen.secspace{
+        margin-top:100px}
+
+
+.isTablet.isSmallScreen .socialresLabel {
+            font-size: 1em;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        
+
+/*============ BIG TABLET VIEW===============*/
+
+.isTablet.isBigScreen  .widthAtC2R {
+    /* border: 1px red solid; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body.isTablet.isBigScreen .social-res1 {
+    /* background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 180%;
+    background-position: -397px 9px;
+}
+
+
+body.isTablet.isBigScreen.isLandscape.social-res1 {
+    /* background-image: url(../../images/social-responsibility/book-1822474_1920_EDIT1.jpg); */
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 157%;
+    background-position: center -75px;
+}
+
+
+.isTablet.isBigScreen .AtC2RLightningSection {
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 180%;
+    background-position: center -86px;
+    /* height: 500px; */
+}
+
+.isTablet.isBigScreen .secspace2{
+    margin-top: 174px;
+    }
+
+    .isTablet.isBigScreen.isLandscape .secspace2 {
+        margin-top: 181px;
+    }
+
+
+
+.isTablet.isBigScreen .socialreswhiteLine {
+    width: 25px;
+    height: 1px;
+    background: white;
+    /* margin-top: -8px; */
+    margin: 8px auto;
+}
+
+.isTablet.isBigScreen .socialResSec2Bg{
+    /* background-image: url("../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 522px;
+    /* width: 100%; */
+    /* margin-right:0; */
+    /* You must set a specified height */
+    background-position: right center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:right; */
+    /* background-position: 2px 135px; */
+    /* border: 1px red solid; */
+    /* margin: 0 auto; */
+}
+
+.isTablet.isBigScreen .taglineHelpUs
+{
+    font-size: 2.8em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    text-align: center;
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+}
+
+.isTablet.isBigScreen .socialResSec3Bg{
+    /* background-image: url("../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg"); */
+    background-color: black; /* Used if the image is unavailable */
+    height: 522px;
+    /* width: 100%; */
+    /* margin-right:0; */
+    /* You must set a specified height */
+    background-position: left center; /* Center the image */
+    background-repeat: no-repeat; 
+    /* Do not repeat the image */
+    background-size: contain;
+    /* Resize the background image to cover the entire container */
+    /* text-align:left; */
+    margin-left: -14px;
+    /* margin: 0 auto; */
+    /* border: 1px red solid; */
+}
+
+
+.isTablet.isBigScreen .spaceText{margin-top: 386px;padding-left:20px;padding-right:20px;margin-bottom: 368px;}
+
+.isTablet.isPotrait.isBigScreen .tagline{
+    font-size: 2.8em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing: 0.05em;
+    color:#ffffff;
+    font-weight:900;
+    /* letter-spacing: 0.03em; */
+    /* line-height:1em; */
+}
+
+.isTablet.isBigScreen.isLandscape .spaceText {
+    margin-top: 348px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.isTablet.isBigScreen.isPotrait .tagline2{
+    font-size: 2.8em;
+    /* font-size:4em; */
+    font-weight:900;
+    letter-spacing:0em;
+    line-height:1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight:900; */
+    /* letter-spacing: 0.03em; */
+    /* background: #37E20F;
+    background: -webkit-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    background: linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* margin-left:-6px; */
+}
+.isTablet.isBigScreen.isLandscape .tagline2 {
+    font-size: 2.5em;
+    /* font-size: 4em; */
+    font-weight: 900;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    /* font-size: 2.0em; */
+    /* font-weight: 900; */
+    /* letter-spacing: 0.03em; */
+    /* margin-left: 3px; */
+}
+
+
+.isTablet.isBigScreen .tagline3{
+    font-size: 2.3em;
+    /* font-size:4em; */
+    font-weight:900;
+    color:#ffffff;
+    font-weight:900;
+    margin-left: -9px;
+    /* letter-spacing: 0.03em; */
+}
+.isTablet.isBigScreen .socialresLabel{
+    font-size:1em;
+    font-weight:600;
+    color:#ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+   margin-top:12px
+}
+
+.isTablet.isBigScreen .socialresParaTextLabel
+{
+    font-size: 1.5em;
+    font-weight:300;
+    /*font-size:0.9em;*/
+    width:100%;
+    color:#ffffff;
+    letter-spacing: 0.1em;
+    margin-top:20px;
+}
+
+.isTablet.isBigScreen  .socialresParaTextLabel2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    /* font-size: 0.9em; */
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    padding-left: 0%;
+    line-height: 18px;
+    margin-top: 24px;
+    margin-bottom: -5px;
+}
+
+.isTablet.isBigScreen .missionCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+
+.isTablet.isBigScreen .LoveDogCSS {
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    text-align: center;
+}
+.isTablet.isBigScreen .centerPara {
+    /* border: 5px solid #FFFF00; */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top:50px;
+    }
+
+.isTablet.isBigScreen .socialresParaText
+    {
+        font-size: 1.2em;
+        /*    font-weight:300;
+    font-size:0.8em;
+    
+    color:#ffffff;
+    letter-spacing: 0.1em;*/
+        /* font-size: 0.8em; */
+        color:#ababab;
+        line-height: 2em;
+        letter-spacing: 2px;
+        padding-right: 10%;
+        padding-left: 10%;
+        /* border: 1px red solid; */
+        width: 100%;
+    }
+    
+    .isTablet.isBigScreen .text-left{
+        text-align: left;
+        padding-left:78px;
+        padding-right:50px;
+        margin-top:auto;margin-bottom:auto;
+    }
+
+    .isTablet.isBigScreen .secspace{
+        margin-top:100px;
+    }
+
+        .isTablet.isBigScreen .marginTBSpace {
+            margin-top: auto;
+            margin-bottom: auto;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+ .isTablet.isBigScreen .secspace {
+            margin-top: 5%;
+        }
+
+.isTablet.isBigScreen.isLandscape .secspace {
+            margin-top: 7%;
+        }
+
+.isTablet.isBigScreen .socialresLabel {
+            font-size: 1em;
+            font-weight: 600;
+            color: #ffffff;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-top: 10px;
+                /* margin-top: -14px; */
+}
+
+
+
+        /* Landscape */
+            @media only screen 
+            and (min-width: 1024px) 
+            and (max-height: 1366px) 
+            and (orientation: landscape) 
+            and (-webkit-min-device-pixel-ratio: 1.5) {
+
+                .isTablet.isBigScreen {
+
+                    
+
+                /*commented isApple for version 8.74 22Feb*/}
+                /* .isTablet.isBigScreen.isLandscape .spaceText {
+                    margin-top: 290px;
+
+                } */
+
+                .isTablet.isLandscape.isBigScreen .AtC2RLightningSection
+                {
+                    background-position: center -168px;
+                    height: 1127px;
+                }
+
+
+
+
+
+            }
+
+
+
+        /* Landscape ipad pro*/
+        @media only screen 
+        and (min-width: 1366px) 
+        and (max-height: 1024px) 
+        and (orientation: landscape) 
+        and (-webkit-min-device-pixel-ratio: 1.5) {
+
+            .isTablet.isBigScreen.isLandscape .helpUsBuidBrigtherWorldCSS {
+        
+                margin-top: 130px;
+            }
+
+        .isTablet.isBigScreen.isLandscape .spaceText {
+            margin-top: 490px;
+        }
+
+        .isTablet.isBigScreen.isLandscape .socialResSec2Bg {
+            /* background-image: url(../../images/social-responsibility/vidar-nordli-mathisen-iKQbaUgkEf0-unsplash_EDIT.jpg); */
+            background-color: black;
+            height: 660px;
+            background-position: right center;
+            background-repeat: no-repeat;
+            background-size: 97%;
+        }
+
+        .isTablet.isBigScreen.isLandscape .socialResSec3Bg {
+            /* background-image: url(../../images/social-responsibility/adam-griffith-sWkkIiTJMYc-unsplash_EDIT.jpg); */
+            background-color: black;
+            height: 615px;
+            background-position: left center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-left: -13px;
+
+        }
+
+        
+}
+
+
+
+
+.isPC .socialChunkSpace{ margin-bottom: 7%;border:0px solid red;}
+.helpBrighterSection{ height: auto!important;margin-bottom: 10.5%;}
+.thirdSectionOurMission{height: auto!important;margin-bottom: 10.5%!important;}
+.forthThelove{height: auto!important; margin-bottom: 5%!important;}
+
+
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 912px) 
+  and (max-device-width: 1368px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+
+    .isTablet .socialResSec3Bg {
+        margin: 14px auto;
+    }
+
+    .isTablet .socialResSec2Bg {
+        height: 768px;
+    
+    }    
+}
+
+
+@media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    /* .isTablet.isBigScreen .socialresParaTextLabel2 {
+        margin-top: 18px;
+    } */
+    .isTablet.isBigScreen .socialResSec3Bg {
+        width: 104%;
+    }
+
+   .isTablet.isBigScreen .LightAHouseSVG svg {
+        margin-bottom:-22px;
+          }
+
+   .isTablet.isBigScreen  .theLoveOfOurDogSVG svg {
+  margin-bottom:-22px;
+    }
+
+    .isTablet.isLandscape.isBigScreen .AtC2RLightningSection {
+    background-position: center -168px;
+    height: 910px;
+}
+}
+
+
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile.isSmallScreen .socialresLabel {
+        margin-top: 50px;
+      
+    }
+
+    .isMobile.isSmallScreen.isPotrait .mobilehelpUsBuidBrigtherWorldCSS {
+        transform: scale(0.5) ;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 60px;
+    }
+    
+
+    .isMobile.isSmallScreen.isPotrait .mobileLightAHouseSVG {
+        transform: scale(0.5);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .isMobile.isSmallScreen.isPotrait .mobiletheLoveOfOurDogSVG {
+        transform: scale(0.5);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .isMobile.isSmallScreen .socialResSec2Bg {
+        height: 290px;
+    }
+}
+
+
+
+@media screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 653px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile.isSmallScreen .socialresLabel {
+        margin-top: 10px;
+      
+    }
+
+    .isMobile .AtC2RLightningSection {
+        /* background-size: cover; */
+        background-size: 230%;
+        background-position: center -7px;
+        /* height: 279px; */
+    }
+
+    .isMobile.isSmallScreen .socialresParaTextLabel {
+        margin-bottom: -30px;
+    }
+
+  }
+
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+
+    .isMobile .socialresParaTextLabel {
+        margin-bottom: -30px;
+    }
+
+    .isMobile .mobilehelpUsBuidBrigtherWorldCSS {
+        transform: scale(0.55);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+        text-align:center;
+        margin-top: 60px;
+    }
+    
+}
+
+@media screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 844px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile .taglineHelpUs {
+        margin-top: 30px;
+    }
+
+    .isMobile .socialresLabel {
+        margin-top: 59px;
+    }
+
+    .isMobile .mobilehelpUsBuidBrigtherWorldCSS {
+        transform: scale(0.55);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top:70px;
+        text-align:center;
+        margin-top: 60px;
+    }
+    
+}
+
+
+@media screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile .socialresParaText {
+        padding-top: 0%;
+    }
+
+    .isMobile .AtC2RLightningSection {
+        /* background-size: cover; */
+        background-size: 230%;
+        background-position: center -61px;
+        /* height: 279px; */
+    }
+
+    .isMobile .marginTopHelpUs {
+        margin-top: -60px;
+    }
+
+    .isMobile.isPotrait .spaceText {
+        margin-top: 147px;
+    }
+
+    .isMobile .mobilehelpUsBuidBrigtherWorldCSS {
+        transform: scale(0.55);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top:0px;
+        text-align:center;
+        margin-top:50px;
+    }
+    
+    .isMobile .socialResSec2Bg {
+        height: 331px;
+    }
+    
+    /*add for version 8.74 21Feb*/
+    .isMobile.isLandscape .spaceText {
+        margin-top: 207px;
+        /* padding-left: 70px; */
+        /* padding-right: 70px; */
+    }
+}
+
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      
+        .isMobile .socialResSec2Bg {
+            height: 345px;
+        }
+
+
+}
+
+
+@media screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      
+    .isMobile .socialresParaTextLabel {
+        margin-bottom: -30px;
+    }
+
+    .isMobile .mobilehelpUsBuidBrigtherWorldCSS {
+        transform: scale(0.55);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .isMobile .mobileLightAHouseSVG {
+        transform: scale(0.55);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .isMobile .mobiletheLoveOfOurDogSVG {
+        transform: scale(0.55);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+}
+
+
+@media screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 846px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+            .isTablet.isSmallScreen .spaceText {
+                margin-top: 214px;
+                /* padding-left: 13%; */
+                /* padding-right: 13%; */
+                margin-bottom: -5px;
+            }
+
+  }
+
+@media screen 
+  and (min-device-width: 568px) 
+  and (max-device-width: 320px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile.isLandscape .helpUsBuidBrigtherWorldCSS {
+        margin-top: -50px;
+    }
+  }
+
+
+
+
+
+
+@media screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 960px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      
+    .isTablet.isLandscape .helpUsBuidBrigtherWorldCSS {
+        margin-top: 100px;
+    }
+
+    .isTablet.isLandscape .socialresParaTextLabel {
+        margin-top: 35px;
+    }
+
+    .isTablet.isLandscape .mobilehelpUsBuidBrigtherWorldCSS {
+        text-align: center;
+        transform: scale(0.7);
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    
+
+    .isTablet.isLandscape .LightAHouseSVG {
+        text-align: center;
+        transform: scale(0.85);
+        /* border: 1px red solid; */
+        /* margin-bottom: -43px; */
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .isTablet.isLandscape .theLoveOfOurDogSVG {
+        text-align: center;
+        transform: scale(0.85);
+        /* border: 1px red solid; */
+        /* margin-bottom: -43px; */
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+
+      /*add for version 8.74 21Feb*/
+  .isTablet.isSmallScreen .spaceText {
+    margin-top: 214px;
+    /* padding-left: 13%; */
+    /* padding-right: 13%; */
+    margin-bottom: 222px;
+}
+
+}
+
+
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      
+    .isTablet.isPotrait .LightAHouseSVG svg {
+        margin-bottom:-22px;
+          }
+
+          .isTablet.isPotrait .theLoveOfOurDogSVG svg {
+  margin-bottom:-22px;
+    }
+
+    .isTablet.isPotrait .helpUsBuidBrigtherWorldCSS {
+   
+        margin-top: 100px;
+    }
+}
+
+
+/*add for version 8.74 21Feb*/
+@media screen 
+  and (min-device-width: 412px) 
+  and (max-device-width: 915px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile.isLandscape .spaceText {
+        margin-top: 306px;
+        /* padding-left: 70px; */
+        /* padding-right: 70px; */
+    }
+
+    .isMobile .AtC2RLightningSection {
+        /* background-size: cover; */
+        background-size: 200%;
+        background-position: center -61px;
+        /* height: 279px; */
+    }
+
+    .isMobile.isLandscape .AtC2RLightningSection {
+        /* background-size: cover; */
+        background-size: 150%;
+        background-position: center -61px;
+        height: 432px;
+    }
+    
+}
+
+
+
+
+
+    .isApple .isMobile .tagline2 {
+        font-size: 1.7em;
+        /* font-size: 4em; */
+        font-weight: 900;
+        letter-spacing: 0em;
+        line-height: 1.2em;
+        /* font-size: 2.0em; */
+        /* font-weight: 900; */
+        /* letter-spacing: 0.03em; */
+        /* margin-left: -14%; */
+        }
+
+
+    .isMobile.isLandscape .socialresLabel {
+        margin-top: 34px;
+    }
+
+
+    /*added isApple for version 8.74 22Feb*/
+    .isApple.isTablet.isBigScreen .taglineHelpUs {
+        font-size: 2.8em;
+        margin-top: 30px;
+        /* font-size: 4em; */
+        font-weight: 900;
+        letter-spacing: 0em;
+        line-height: 1.2em;
+        text-align: center;
+        background: -moz-linear-gradient(to right, #37E20F 18%, #FD7C00 49%);
+        }
+
+
+ /*added isApple for version 8.74 22Feb*/
+    .isApple.isTablet .taglineHelpUs {
+        margin-top: 30px;
+        }
+
+    .isApple.isTablet .spaceText {
+            margin-top: 310px;
+   
+        }
+
+    .isApple.isTablet.isBigscreen.isLandscape .spaceText {
+            margin-top: 346px;
+        }

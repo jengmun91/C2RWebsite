@@ -1,0 +1,549 @@
+
+:root{
+    --color-yellow:#FFC206;
+    --color-lg-bg-blue-grey:##cccfd4;
+
+}
+
+
+body{
+    font-family: 'Manrope', sans-serif;
+    color:white;
+    background-color:#000000;
+    padding:0px;
+    margin:0px;
+    font-size:14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    overflow-x: clip;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.isPC .navbar-collapse, 
+.isPC .container, 
+.isPC .container-fluid,
+.isPC .top-menu.navbar{
+    min-width: 1100px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+    a:hover{
+        color:#e60875!important; 
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.ui-btn{
+    font-size: 0.9em;
+    color:white;
+    background-color: rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    border:1px solid rgba(255,255,255,0.3);
+    padding:10px 20px;
+}
+    .ui-btn .arrow{
+        width: 20px;
+        margin-left: 25px;
+        margin-top: -6px;
+    }
+
+    .isPC .ui-btn:hover{
+        color:#e60875;
+        cursor:pointer;
+        font-weight: 400!important;
+    }
+/********** START Customize scrollbar ******************/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height:5px;
+  margin:0;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: #171818; 
+   border-radius: 50px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6c757d;  
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc107; 
+}
+
+/********** END Customize scrollbar ******************/
+
+
+@media (hover: hover) and (pointer: fine) {/*FOR PC*/
+    .mobile-only,
+    .tablet-only,
+    .mobile-tablet-only{
+        display: none!important;
+    }
+}
+.isPC .mobile-only,
+.isPC .tablet-only,
+.isPC .mobile-tablet-only{
+    display: none!important;
+}
+
+.border > div{
+    border:1px solid red;
+}
+
+.page-title{
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+
+.tagline{
+    color:white;
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.tagline.gradient{
+     -webkit-background-clip: text;
+     -moz-background-clip: text;
+      background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.orange-pink{
+    background: linear-gradient(90deg, #fd7c00 20%, #e20fd6 70%); 
+}
+
+.green-orange{
+    background: linear-gradient(90deg, #37E20F 20%, #fd7c00 70%); 
+}
+
+.ie .tagline.orange-pink{
+    color: #fd7c00;
+    background: transparent;
+}
+.ie .tagline.green-orange{
+    color: #37E20F;
+    background: transparent;
+}
+
+
+
+.tagline-desc{
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    text-align: center;
+     margin-top:10px;
+}
+
+section{
+    margin:5px 0;
+}
+
+.show-on-scroll{
+
+}
+
+.text-paragraph{
+    font-size: 1.1em;
+    color:#ababab;
+    line-height: 1.5em;
+    letter-spacing: 4px;
+}
+
+
+section.js-inview{
+    opacity: 0;
+    transition-delay: 1s;
+}
+section.js-inview.animation{
+    opacity: 1;
+}
+
+select{
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    padding:5px 20px;
+    border:1px solid white;
+    border-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+    width:100%;
+    -webkit-appearance: none;
+   -moz-appearance: none;
+    appearance: none;
+	
+	
+	
+-webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+	
+	
+    background-image: url('../../../images/btn-arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    background-size: 15px;
+
+/*    max-height: calc(1.2em + 24px);
+    height: calc(1.2em + 24px);*/
+}
+
+
+
+.ie select::-ms-expand {
+  display: none;
+}
+
+select:focus{
+    /* border:0; */
+    border:1px solid white;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+select option{
+    background: black;
+}
+
+
+
+
+/********** START TOP MENU ******************/
+
+.top-menu.navbar{
+    text-transform: uppercase;
+    color:white;
+    position: sticky;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 100;
+    background:rgba(0, 0, 0, 0.8);
+    width:100%;
+    margin-right:-15px;
+}
+.navbar-brand img{
+    height:35px;
+}
+    .navbar .nav-item{
+        color:white;
+        padding:0 20px;
+        position: relative;
+    }
+
+    .navbar .nav-item.active:after{
+        content: ' ';
+        position: absolute;
+        left:30px;
+        bottom:0px;
+        width:30px;
+        height: 2px;
+        color:white;
+        height: 2px;
+        background: linear-gradient(90deg, #fd7c00 0%, #e20fd6 100%);
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 0.9em;
+    }
+
+
+
+
+/********** END TOP MENU ******************/
+
+/********** START SUB MENU ******************/
+
+.sub-menu{
+    background:#181617;
+    background: rgba(24, 22, 23, 0.95);
+    text-transform: uppercase;
+    font-size: 1em;
+    color:white;
+    padding-left:45px;
+    padding-right:27px;
+    position: sticky;
+    top: 50px;
+    left:0;
+    right:0;
+    z-index: 100;
+
+}
+.sub-menu .product-name{
+     -ms-flex-item-align: center!important;
+    align-self: center!important;
+    padding-left:20px;
+    
+}
+.sub-menu .nav-item .nav-link{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.sub-menu .nav-item .nav-link.active{
+    color:#e3a909;
+}
+/********** START FOOTER ******************/
+.footer{
+    background-image: url('../../../images/bg-footer.jpg');
+    width:100%;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left -130px;
+    padding: 150px 30px 50px;
+    letter-spacing: 2px;
+    margin-top:50px;
+  /*  height: auto!important;*/
+    
+}
+.contact-container {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-title h2{
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+.footer-desc p {
+    font-size: 0.9em;
+    color: #aeaeae;
+    text-align: left;
+    margin-right: 200px;
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.footer-btn{
+    margin-top:30px;
+}
+
+.footer .list-menu {
+    font-size:0.9em;
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.footer .list-item {
+    padding: 10px 13px;
+}
+
+.footer .list-item a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer .icon-header {
+    margin-top:152px;
+    text-align: left;
+    color:white;
+    font-size: 0.9em;
+}
+
+.footer .list-icon {
+    margin-top: 10px;
+}
+
+.footer .copyright{
+    margin-top:50px;
+    font-size: 0.8em;
+    color:#a8a8a8; 
+}
+/********** END FOOTER ******************/
+    
+
+.modal-title{
+    padding-left:30px;
+}
+.modal-footer{
+     background-color: rgb(43, 43, 43);
+    border-top:0;
+     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.modal-footer .btn{
+    border-radius: 0;
+}
+.modal-header {
+    border-bottom: 2px solid rgb(43, 43, 43);
+    padding: 1rem 1rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .modal-header{
+    background-color: rgb(43, 43, 43);
+  }
+  
+  .modal-body
+  {
+    background-color: rgb(43, 43, 43);
+    padding-left:50px;
+    padding-right: 50px;
+  }
+  
+  .modal-header button {
+    color:white;
+  }
+  
+  .modal-header button:hover {
+    color:white;
+  }
+
+
+
+  .modal-header button:focus {
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+
+
+.modal-content {
+  
+    background-color: rgb(43, 43, 43);
+
+}
+
+.btn-style:focus {
+
+    outline: none;
+    box-shadow: none;
+  }
+
+/*svg{
+    display:none;
+}
+body.isPC:not(.safari) svg,
+body.isMobile:not(.isApple) svg,
+body.isTablet:not(.isApple) svg{
+ display:flex;
+}*/
+
+
+svg, .tagline-G{  
+    display:none;  
+} 
+
+
+body.isPC:not(.safari, .ie, .no-svg) svg,  
+body.isMobile:not(.no-svg, .isApple) svg,  
+body.isTablet:not(.no-svg, .isApple) svg{  
+ display:flex;  
+} 
+
+body.isPC:not(.ie) .tagline-G,  
+body.isPC:not(.safari) .tagline-G,  
+body.isMobile:not(.no-svg, .isApple) .tagline-G, 
+body.isTablet:not(.no-svg, .isApple) .tagline-G
+{  
+ display:none!important;   
+}
+
+body.isPC.ie .tagline-G, 
+body.isPC.safari .tagline-G, 
+body.isPC.no-svg .tagline-G, 
+body.isMobile.isApple .tagline-G, 
+body.isMobile.no-svg .tagline-G, 
+body.isTablet.isApple .tagline-G,
+body.isTablet.no-svg .tagline-G{  
+ display:block;   
+}
+
+
+
+object, svg, .tagline-G{  
+    display:none;  
+} 
+
+
+
+body.isPC:not(.safari, .ie, .no-svg) svg,  
+body.isMobile:not(.no-svg, .isApple) svg,  
+body.isTablet:not(.no-svg, .isApple) svg,
+body.isPC:not(.safari, .ie, .no-svg) object,  
+body.isMobile:not(.no-svg, .isApple) object,  
+body.isTablet:not(.no-svg, .isApple) object{  
+ display:flex;  
+}
+
+
+/*body.isPC:not(.safari, .ie) svg,  
+body.isMobile:not(.isApple) svg,  
+body.isTablet:not(.isApple) svg{  
+ display:flex;  
+ 
+} 
+body.isPC:not(.ie) .tagline-G,  
+body.isPC:not(.safari) .tagline-G,  
+body.isMobile:not(.isApple) .tagline-G, 
+body.isTablet:not(.isApple) .tagline-G{  
+ display:none;   
+ 
+} 
+
+body.isPC.ie .tagline-G, 
+body.isPC.safari .tagline-G,  
+body.isMobile.isApple .tagline-G, 
+body.isTablet.isApple .tagline-G{  
+ display:block;   
+ 
+}*/
+
+.tagline-SVG{
+
+    text-align:center;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+  
+}
+  /*indexChunkSpace added in index.html to add space in between  section*/
+  /* .indexChunkSpace{
+      margin-bottom:50px;
+      }
+       */
+  /*whoweAreChunkSpace added in who-we-are.html to add space in between  section*/
+  /* .whoweAreChunkSpace{
+      margin-bottom:50px;
+      } */
+  
+  /*socialChunkSpace added in social-responsibility.html to add space in between section*/
+  /* .isPC .socialChunkSpace{
+      margin-bottom:65px;
+  }
+  
+  .isPC .socialChunkSpace2{
+      margin-bottom:100px;
+  } */
+  
+
+/*added isApple for version 8.74 21Feb*/
+ .isLandscape.isMobile .tagline-SVG{
+    transform: scale(0.65);
+    margin-bottom:-20px;
+    /* border:1px red solid; */
+
+ }
+

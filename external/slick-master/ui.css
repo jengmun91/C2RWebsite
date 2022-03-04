@@ -1,0 +1,16 @@
+.center .slick-current{
+    transform: scale(1.08);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+
+.slick-dots{
+    position: relative;
+}
+
+
+
+

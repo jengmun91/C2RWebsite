@@ -1,0 +1,94 @@
+.isTablet{}
+body.isTablet{
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.isTablet .mobile-only{
+    display: none;
+}
+
+.isTablet .pc-only{
+    display: none;
+}
+
+
+
+.isTablet .mobile-tablet-only{
+    display: block!important;
+}
+
+/********** START FOOTER  ******************/
+.isTablet .footer-title h2{
+
+    text-align: center;
+}
+
+.isTablet .footer-desc p{
+    font-size: 1em;
+    text-align: center;
+     margin-right: 0;
+}
+
+.isTablet .footer-btn {
+    margin-top: 10px;
+    text-align: center;
+      margin-bottom: 50px;
+}
+
+.isTablet .footer-desc p{
+    margin-right:0;
+}
+
+.isTablet .footer .list-menu{
+    margin-top: 0; 
+}
+.isTablet .footer .icon-header {
+     text-align: center;
+    margin-top:40px;
+}
+
+.isTablet .footer .list-item{
+    text-align: center;
+}
+
+.isTablet .footer .list-icon{
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.isTablet .footer .copyright{
+    text-align: center;
+}
+
+
+.isTablet .footer .col-lg-5,
+.isTablet .footer .col-lg-2{
+   -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+}
+
+
+.isTablet.isSmallScreen .footer {
+    padding: 52px 30px 50px;
+}
+
+.isTablet.isBigScreen .footer {
+    padding: 100px 30px 50px;
+}
+
+
+.isTablet .footer {
+    padding: 50px 30px 50px;
+}
+/********** START HOME WHAT WE DO ******************/
+
+.isTablet .navbar-collapse{
+    display: none!important;
+}
+
+
+
+

@@ -1,0 +1,478 @@
+.animated {
+	/* -webkit-animation-duration: 0.8s;
+	animation-duration: 0.8s; */
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	/* -webkit-animation-fill-mode: both;f.iez
+	animation-fill-mode: both; */
+	-webkit-animation-fill-mode:forwards;
+	animation-fill-mode: forwards;
+  }
+  
+
+  .cssanimations .animated {
+	opacity:0;
+  }
+  
+  @media screen and (max-width:1200px) {
+	.animated {
+	  opacity: 1;
+	}
+  }
+  
+  @-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,50%,0);
+        transform: translate3d(0,50%,0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,50%,0);
+        transform: translate3d(0,50%,0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+
+.partnersSubTag
+{
+    opacity:0;
+}
+
+.animatedpartners
+ {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+.OurPartnersSVG{
+    text-align:center;
+}
+
+
+
+.tagline{
+    /* background: linear-gradient(90deg, #fd7c00 20%, #e20fd6 70%); */
+}
+
+
+.logo-gp > .itm{
+    /* border-bottom:1px solid #262627; */
+    padding:20px 15px;
+    margin-bottom: 20px;
+}
+
+.logo-gp > .itm:last-child{
+    border:0;
+}
+
+.logo-img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.div-img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+ /*   border-bottom:1px solid #262627;*/
+    margin-bottom:20px;
+}
+
+/* .isMobile .tagline{
+
+} */
+
+
+/*=========== MOBILE VIEW ============*/
+
+.isMobile .tagline-desc {
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*add isApple for version 8.74 21Feb*/
+.isApple.isMobile.isLandscape .tagline-desc {
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  }
+
+
+/*=========== TABLET VIEW ============*/
+
+/* .isTablet .tagline{
+
+} */
+.isTablet .tagline {
+    font-size: 2.3em;
+    font-weight: 900;
+    letter-spacing: 0em;
+    color: #ffffff;
+    font-weight: 900;
+  
+}
+
+
+.isTablet .tagline-desc {
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*=========== SMALL TABLET VIEW ============*/
+
+
+.isTablet.isSmallScreen .tagline {
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.isTablet.isSmallScreen .tagline-desc {
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*=========== BIG TABLET VIEW ============*/
+.isTablet.isBigScreen .tagline {
+    color: white;
+    font-size: 2.8em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.isTablet.isBigScreen .tagline-desc {
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 912px) 
+  and (max-device-width: 1368px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isTablet.isPotrait .OurPartnersSVG{
+        text-align: center;
+        transform: scale(0.8);
+        /* border: 1px red solid; */
+        margin-bottom: -10px;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    
+      }
+
+
+
+
+}
+
+@media screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isTablet.isPotrait .OurPartnersSVG{
+        text-align: center;
+        transform: scale(0.85);
+        /* border: 1px red solid; */
+        margin-bottom: -10px;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    
+      }
+
+
+}
+
+
+
+@media screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isTablet.isBigScreen.isPotrait .OurPartnersSVG {
+      text-align: center;
+      transform: scale(0.9);
+      /* border: 1px red solid; */
+      /* margin-bottom: -20px; */
+      -ms-flex-pack: center!important;
+      justify-content: center!important;
+      display: -ms-flexbox;
+      display: flex;
+  
+  }
+  
+}
+
+
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    /*add isApple for version 8.74 21Feb*/
+    .isMobile .tagline-desc {
+      /* margin-top: 25px; */
+      margin-top: 10px;
+  }
+    .isMobile.isSmallScreen .OurPartnersSVG {
+        text-align: center;
+        transform: scale(0.6);
+        /* border: 1px red solid; */
+        margin-bottom: -20px;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    
+    }
+
+
+}
+
+
+
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile .OurPartnersSVG {
+        text-align: center;
+        transform: scale(0.55);
+        /* border: 1px red solid; */
+        margin-bottom: -20px;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    
+    }
+    
+}
+
+
+@media screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 844px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile .OurPartnersSVG {
+        text-align: center;
+        transform: scale(0.55);
+        /* border: 1px red solid; */
+        /* margin-bottom: -20px; */
+        margin-bottom: 0px;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    
+    }
+    
+}
+
+
+
+
+@media screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    
+/*add isApple for version 8.74 21Feb*/
+    .isMobile .tagline-desc {
+      margin-top: 20px;
+      /* margin-top: 10px; */
+  }
+    
+    .isMobile .OurPartnersSVG{
+        text-align: center;
+        transform: scale(0.55);
+        /* border: 1px red solid; */
+        /* margin-bottom: -20px; */
+        margin-bottom: -37px;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    
+    
+    }
+    
+    
+    
+}
+
+@media screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+
+           /*comment isApple for version 8.74 21Feb*/
+      .isApple.isMobile.isLandscape .tagline-desc {
+            margin-top: 25px;
+        }
+  
+    /*add isApple for version 8.74 21Feb*/
+    .isMobile .tagline-desc {
+      margin-top: 25px;
+      /* margin-top: 10px; */
+  }
+      
+        .isMobile .OurPartnersSVG {
+            text-align: center;
+            transform: scale(0.55);
+            /* border: 1px red solid; */
+            margin-bottom: -20px;
+            -ms-flex-pack: center!important;
+            justify-content: center!important;
+            display: -ms-flexbox;
+            display: flex;
+        
+        }
+
+
+}
+
+
+@media screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      
+    .isMobile .OurPartnersSVG {
+        text-align: center;
+        transform: scale(0.55);
+        /* border: 1px red solid; */
+        margin-bottom: -20px;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+        display: -ms-flexbox;
+        display: flex;
+    
+    }
+}
+
+
+@media screen 
+  and (min-device-width: 280px) 
+  and (max-device-width: 653px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      
+   .isMobile.isSmallScreen .OurPartnersSVG{
+    text-align: center;
+    transform: scale(0.6);
+    /* border: 1px red solid; */
+    margin-bottom: -20px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+
+}
+
+
+
+}
+
+
+
+
+@media screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+  .isTablet.isSmallScreen.isPotrait .OurPartnersSVG{
+    text-align: center;
+    transform: scale(0.8);
+    /* border: 1px red solid; */
+    margin-bottom: -20px;        
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: -ms-flexbox;
+    display: flex;
+
+    }
+
+}
+
+/*add isApple for version 8.74 21Feb*/
+@media screen 
+  and (min-device-width: 412px) 
+  and (max-device-width: 915px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+    .isMobile .tagline-desc {
+      /* margin-top: 25px; */
+      margin-top: 10px;
+  }
+  
+  
+
+}

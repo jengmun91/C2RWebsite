@@ -1,0 +1,136 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 {
+  position: fixed;
+  margin-left: 10%;
+  top: 30vh;
+  transition: top 1.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+span {
+  color: skyblue;
+  transition: color 1.5s ease;
+}
+
+
+section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.content-wrap {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+.desc {
+  margin: 15px;
+  transition: transform 1.7s cubic-bezier(0.1, 0.29, 0.5, 0.92) .3s;
+}
+.unmoved .desc {
+  transform: translateY(100px);
+}
+.section1.unmoved .desc {
+  transform: translateY(50px);
+}
+
+
+section.placeholder {
+  height: 60vh;
+}
+
+section.section1{
+}
+.section1 .content-wrap {
+  left: 5vw;
+  top: 20vh;
+  flex-direction: column;
+}
+.section1 .img {
+  width: 90vw;
+  height: 60vh;
+  background: limegreen;
+  background: repeating-linear-gradient(45deg, olivedrab 0, olivedrab 3%, limegreen 0, limegreen 50%) 0 / 30px 30px;
+}
+.section1 .desc {
+  margin-left: 80%;
+}
+
+section.section2{
+}
+.section2 .content-wrap {
+  font-size: 25px;
+  left: 10%;
+  top: 20%;
+}
+
+section.section3{
+}
+.section3 .content-wrap {
+  top: 5%;
+  right: 5%;
+}
+.section3 .img {
+  width: 300px;
+  height: 90vh;
+  background: indianred;
+  background: repeating-linear-gradient(45deg, crimson 0, crimson 7%, indianred 0, indianred 50%) 0 / 20px 20px;
+  order: 1;
+}
+.section3 .desc {
+  text-align: right;
+  margin-top: 100%;
+}
+
+section.section4{
+}
+.section4 .content-wrap {
+  top: 15%;
+  left: 5%;
+}
+.section4 .img {
+  width: 500px;
+  height: 70vh;
+  background: teal;
+  background: repeating-linear-gradient(45deg, cadetblue 0, cadetblue 10%, teal 0, teal 50%) 0 / 20px 20px;
+}
+.section4 .desc {
+  margin-top: 20%;
+}
+
+section.section5{
+}
+.section5 .content-wrap {
+  top: 20%;
+  right: 10%;  
+}
+.section5 .img {
+  width: 700px;
+  height: 60vh;
+  background: gold;
+  background: repeating-linear-gradient(45deg, khaki 0, khaki 5%, gold 0, gold 50%) 0 / 20px 20px;
+  order: 1;
+}
+.section5 .desc {
+  text-align: right;
+  margin-top: 45vh;
+}
+
+section.section6{
+}
+.section6 .content-wrap {  
+  top: 18vh;
+  left: 10%;
+}
+.section6 .img {
+  width: 60vh;
+  height: 60vh;
+  background: darkmagenta;
+  background: repeating-linear-gradient(45deg, darkviolet 0, darkviolet 3%, darkmagenta 0, darkmagenta 50%) 0 / 20px 20px;
+}
+.section6 .desc {
+  margin-top: 30%;
+}

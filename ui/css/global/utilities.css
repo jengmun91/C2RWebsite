@@ -1,0 +1,58 @@
+/*****Padding *******/
+.ui-pl-10{padding-left: 10px;}
+.ui-pl-15{padding-left: 15px;}
+.ui-pl-20{padding-left: 20px;}
+.ui-pl-25{padding-left: 25px;}
+.ui-pl-30{padding-left: 30px;}
+.ui-pl-35{padding-left: 30px;}
+.ui-pl-40{padding-left: 40px;}
+.ui-pl-45{padding-left: 45px;}
+.ui-pl-50{padding-left: 50px;}
+.ui-pl-55{padding-left: 55px;}
+.ui-pl-60{padding-left: 60px;}
+
+.ui-pr-10{padding-right: 10px;}
+.ui-pr-15{padding-right: 15px;}
+.ui-pr-20{padding-right: 20px;}
+.ui-pr-25{padding-right: 25px;}
+.ui-pr-30{padding-right: 30px;}
+.ui-pr-35{padding-right: 30px;}
+.ui-pr-40{padding-right: 40px;}
+.ui-pr-45{padding-right: 45px;}
+
+
+
+
+/*****Margin *******/
+.ui-mt-5{margin-top: 5px;}
+.ui-mt-8{margin-top: 8px;}
+.ui-mt-10{margin-top: 10px;}
+.ui-mt-30{margin-top: 30px;}
+.ui-mt-50{margin-top: 50px;}
+.ui-mt-120{margin-top: 120px;}
+.ui-mt-130{margin-top: 130px;}
+.ui-mt-140{margin-top: 140px;}
+.ui-mt-150{margin-top: 150px;}
+
+.ui-mb-20{margin-bottom: 20px;}
+
+.ui-mtb-150{margin-top: 150px; margin-bottom: 150px;}
+
+
+.ui-txt-transform-none{text-transform: none;}
+.ui-txt-transform-lowercase{text-transform: lowercase;}
+
+
+.ui-col{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.isPC .ui-col-md-x5, .isTablet .ui-col-md-x5{
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}

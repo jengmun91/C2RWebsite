@@ -1,0 +1,47 @@
+.accordion.width {
+  border: 1px solid green;
+  display: flex;
+}
+
+.accordion.width .card {
+  flex-direction: row;
+  flex-grow: 0;
+  flex-shrink: 1;
+  min-width: min-content;
+  background:black;
+}
+
+.accordion.width .card .card-header {
+  cursor: pointer;
+/*  transform: rotate(180deg);
+  writing-mode: vertical-rl;*/
+}
+
+.accordion.width .card .card-header:not(.collapsed) {
+  pointer-events: none;
+    border:0;
+}
+
+.accordion.width .card-body{
+    width:300px;
+}
+
+.accordion .card{
+    border-radius: 0;
+    width:100%;
+    
+}
+.accordion .card-header{
+    padding:0;
+    width:100%;
+}
+
+.accordion img{
+   /* width:100%;*/
+}
+
+.collapsing.width {
+  transition: width 0.35s ease;
+  height: auto;
+  width: 0;
+}

@@ -1,0 +1,205 @@
+
+:root{
+    --z-index-manage-gp:50;
+    --z-index-bottom-slideMenu:60;
+    --z-index-bottom-menu:20;
+}
+
+.isMobile{}
+
+body.isMobile{ 
+    font-size: 13px; 
+    min-height: inherit;
+    padding-bottom:  0;
+}
+
+.isMobile .pc-only{
+    display: none!important;
+}
+
+.isMobile .mobile-tablet-only{
+    display: block!important;
+}
+
+
+
+
+
+
+
+/********** START MENU ******************/
+.isMobile .navbar-brand img{
+    height:30px;
+}
+.mobile-menu .menu-gp{
+    left: -2950px;
+}
+.mobile-menu .menu-gp li a{
+    color:black;
+}
+
+.mobile-menu button.menu-btn{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background-color: unset;
+    border: 0;
+    font-size: 26px;
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    outline: none;
+   
+}
+
+.isMobile .navbar .md-close,
+.isTablet .navbar .md-close{
+    display: none;
+}
+.isMobile .navbar .open-nav .md-close,
+.isTablet .navbar .open-nav .md-close{
+    display: block;
+    position: fixed;
+    right:15px;
+    top:10px;
+}
+
+.isMobile .navbar .open-nav .md-menu,
+.isTablet .navbar .open-nav .md-menu{
+    display: none;
+}
+
+.isMobile .mobile-menu a:hover,
+.isTablet .mobile-menu a:hover{
+    text-decoration: none;
+}
+
+.isMobile .mobile-menu,
+.isTablet .mobile-menu{
+    height: 100%;
+    z-index: 999;
+}
+    .isMobile .mobile-menu .menu-gp,
+    .isTablet .mobile-menu .menu-gp{
+        position: fixed;
+        left: -2950px;
+        top:0;
+        background-color: rgba(0,0,0,.95);
+        transition: 1s;
+        width: 100%;  height: 100%;
+
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+        .isMobile .mobile-menu.open-nav .menu-gp,
+        .isTablet .mobile-menu.open-nav .menu-gp{
+            top:0;
+            left: 0;
+            width: 100%;
+            transition: left 0.8s;
+        }
+
+   .isMobile .mobile-menu .menu-gp ul,
+    .isTablet .mobile-menu .menu-gp ul{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+        .isMobile .mobile-menu .menu-gp li a,
+        .isTablet .mobile-menu .menu-gp li a{
+                display: block;
+                padding:15px;
+                color: white;
+        }
+        @media screen and (orientation:landscape) { 
+            .isMobile .mobile-menu .menu-gp li a{
+                padding: 10px;
+            }
+        }
+        .isMobile .mobile-menu .menu-gp li a.active,
+        .isTablet .mobile-menu .menu-gp li a.active{
+            color:white;
+        }
+
+/********** START FOOTER ******************/
+
+.isMobile .footer-title h2{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.isMobile .footer-desc p{
+    font-size: 0.9em;
+    text-align: center;
+     margin-right: 0;
+}
+
+.isMobile .footer-btn {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.isMobile .footer-desc p{
+    margin-right:0;
+}
+
+.isMobile .footer .list-menu{
+    margin-top: 0; 
+}
+.isMobile .footer .icon-header {
+     text-align: center;
+    margin-top:40px;
+}
+
+.isMobile .footer .list-item{
+    text-align: center;
+}
+
+.isMobile .footer .list-icon{
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.isMobile .footer .copyright{
+    text-align: center;
+}
+
+
+.isMobile .tagline{
+    font-size: 1.7em;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+
+.isMobile .text-paragraph{
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+
+
+.isMobile .footer {
+    padding: 45px 30px 50px;
+}
+
+
+.isMobile.isSmallScreen .footer {
+    padding: 34px 30px 50px;
+}
+.isMobile.isLandscape .footer {
+    padding: 40px 30px 50px;
+
+}
+/********** END FOOTER ******************/
+
+
